@@ -1,18 +1,37 @@
 import "./App.css";
-import { useTranslation } from "react-i18next";
+import { Route, Routes } from "react-router-dom";
+
+import Navbar from "./components/layout/navbar/Navbar.jsx";
+import Footer from "./components/layout/footer/Footer.jsx";
+
+import HomePage from "./pages/home/Home.jsx";
+import ContactPage from "./pages/contact/Contact.jsx";
+import AboutPage from "./pages/about/About.jsx";
+import CategoryPage from "./pages/category/Category.jsx";
+import ProductPage from "./pages/product/Product.jsx";
+import Error404 from "./pages/error404/Error404.jsx";
 
 function App() {
-  const { t, i18n } = useTranslation();
-
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-  };
-
   return (
     <>
-      <h1>{t("Home.title")}</h1>
-      <button onClick={() => changeLanguage("en")}>EN</button>
-      <button onClick={() => changeLanguage("es")}>ES</button>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+
+        {/* categorias */}
+        {/* <Route path="/categories" element={<h1>Categories</h1>} /> */}
+        <Route path="/categories/:categoryId" element={<CategoryPage />} />
+        {/* productos */}
+        <Route path="/product/:productId" element={<ProductPage />} />
+
+        {/* error */}
+        <Route path="/*" element={<Error404 />} />
+      </Routes>
+
+      <Footer />
     </>
   );
 }

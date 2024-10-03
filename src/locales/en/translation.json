@@ -1,8 +1,23 @@
 {
-  "Navbar": {},
-  "Footer": {},
+  "Navbar": {
+    "home": "home",
+    "about": "About",
+    "contact": "Contact",
+    "products": "Products"
+  },
+  "Footer": {
+    "copyright": "All Rights Reserved"
+  },
   "Home": {
-    "title": "Home",
-    "description": "Hello World!"
+    "title": "Home Page"
+  },
+  "About": {
+    "title": "About Page"
+  },
+  "Contact": {
+    "title": "Contact Page"
+  },
+  "Error404": {
+    "title": "Error Page"
   }
 }

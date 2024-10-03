@@ -1,8 +1,23 @@
 {
-  "Navbar": {},
-  "Footer": {},
+  "Navbar": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "products": "Productos"
+  },
+  "Footer": {
+    "copyright": "Todos los Derechos Reservados"
+  },
   "Home": {
-    "title": "Inicio",
-    "description": "Hola Mundo!"
+    "title": "Pagina de Inicio"
+  },
+  "About": {
+    "title": "Pagina Sobre Nosotros"
+  },
+  "Contact": {
+    "title": "Pagina Contacto"
+  },
+  "Error404": {
+    "title": "Pagina de Error"
   }
 }
