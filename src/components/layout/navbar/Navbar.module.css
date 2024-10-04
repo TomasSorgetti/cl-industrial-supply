@@ -1,0 +1,45 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 1rem 0;
+}
+.header nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.header nav ul li a,
+.dropdown {
+  text-decoration: none;
+  color: var(--white);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.language button {
+  background-color: transparent;
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+  font-size: 1rem;
+}
+.language button.active {
+  color: var(--medium-green);
+  font-weight: 700;
+}

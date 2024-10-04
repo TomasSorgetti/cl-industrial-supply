@@ -1,7 +1,10 @@
+import styles from "./Navbar.module.css";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { getAllCategories } from "../../../services/categories.service";
+import { ButtonLink } from "../../ui";
+import logo from "../../../assets/images/logo.svg";
 
 export default function Navbar() {
   const { t, i18n } = useTranslation();
@@ -17,9 +20,11 @@ export default function Navbar() {
   };
 
   return (
-    <header>
+    <header className={styles.header}>
       <nav>
-        <Link to="/">Logo</Link>
+        <Link to="/">
+          <img src={logo} alt="CL industrial supply logo" />
+        </Link>
         <ul>
           <li>
             <Link to="/">{t("Navbar.home")}</Link>
@@ -27,12 +32,9 @@ export default function Navbar() {
           <li>
             <Link to="/about">{t("Navbar.about")}</Link>
           </li>
-          <li>
-            <Link to="/contact">{t("Navbar.contact")}</Link>
-          </li>
-          <li>
+          <li className={styles.dropdown}>
             {t("Navbar.products")}
-            <ul>
+            {/* <ul>
               {categoriesData?.map((category) => (
                 <li key={category.id}>
                   <Link to={`/categories/${category.id}`}>
@@ -40,11 +42,27 @@ export default function Navbar() {
                   </Link>
                 </li>
               ))}
-            </ul>
+            </ul> */}
           </li>
           <li>
-            <button onClick={() => changeLanguage("en")}>EN</button>
-            <button onClick={() => changeLanguage("es")}>ES</button>
+            <ButtonLink path="/contact" variant="primary" size="sm">
+              {t("Navbar.contact")}
+            </ButtonLink>
+          </li>
+          <li className={styles.language}>
+            <button
+              className={`${i18n.language === "en" ? styles.active : ""}`}
+              onClick={() => changeLanguage("en")}
+            >
+              EN
+            </button>
+            -
+            <button
+              className={`${i18n.language === "es" ? styles.active : ""}`}
+              onClick={() => changeLanguage("es")}
+            >
+              ES
+            </button>
           </li>
         </ul>
       </nav>

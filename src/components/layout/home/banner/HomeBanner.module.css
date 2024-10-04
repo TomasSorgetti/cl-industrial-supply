@@ -1,0 +1,37 @@
+.container {
+  width: 100%;
+  background-image: url("../../../../assets/images/home_banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content h1 {
+  max-width: 550px;
+  margin-bottom: 1rem;
+}
+.content p {
+  max-width: 433px;
+  margin: 2rem 0;
+}
+
+.divider {
+  height: 8px;
+  width: 166px;
+  background-color: var(--medium-green);
+}
+
+.buttons {
+  display: flex;
+  gap: 2rem;
+}

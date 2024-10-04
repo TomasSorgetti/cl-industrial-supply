@@ -1,9 +1,58 @@
 :root {
+  --dark-black: #1a1a1a;
+  --light-black: #272727;
 
+  --dark-green: #06665b;
+  --medium-green: #00a99e;
+  --light-green: #a0fff9;
 
+  --white: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: "Encode Sans";
+  src: url("./assets/fonts/EncodeSans-SemiBold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Encode Sans";
+  src: url("./assets/fonts/EncodeSans-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--dark-black);
+  color: var(--white);
+  font-family: "Encode Sans", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.8125rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 3.875rem;
+}
+h2 {
+  font-size: 2.5rem;
+  line-height: 3.125rem;
 }

@@ -1,0 +1,24 @@
+.button {
+  color: var(--white);
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+}
+.primary {
+  background-color: var(--dark-green);
+  border: 2px solid var(--dark-green);
+}
+.secondary {
+  background-color: transparent;
+  border: 2px solid var(--white);
+}
+.sm {
+  padding: 0.5rem 2rem;
+}
+.md {
+  padding: 0.75rem 1.5rem;
+}
+.lg {
+  padding: 1rem 3rem;
+}
