@@ -1,21 +1,21 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useParams } from "react-router-dom";
-import { getProductById } from "../../services/products";
+import { getProductById } from "../../services/products.service";
 
 export default function ProductPage() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const params = useParams();
-  const [productData, setProductData] = useState();
+  const [productData, setProductData] = useState(null);
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    const data = getProductById(params.productId);
-    if (data === undefined) {
+    const data = getProductById(params.productId, i18n.language);
+    if (data === null) {
       setError(true);
     }
     setProductData(data);
-  }, []);
+  }, [i18n.language, params.productId]);
 
   if (error) {
     return (
@@ -25,7 +25,7 @@ export default function ProductPage() {
     );
   }
   return (
-    <>
+    <main>
       {productData && (
         <>
           <h1>{productData.title}</h1>
@@ -37,6 +37,6 @@ export default function ProductPage() {
           </p>
         </>
       )}
-    </>
+    </main>
   );
 }

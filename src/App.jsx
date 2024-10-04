@@ -9,7 +9,7 @@ import ContactPage from "./pages/contact/Contact.jsx";
 import AboutPage from "./pages/about/About.jsx";
 import CategoryPage from "./pages/category/Category.jsx";
 import ProductPage from "./pages/product/Product.jsx";
-import Error404 from "./pages/error404/Error404.jsx";
+import NotFoundPage from "./pages/error404/Error404.jsx";
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
         <Route path="/product/:productId" element={<ProductPage />} />
 
         {/* error */}
-        <Route path="/*" element={<Error404 />} />
+        <Route path="/*" element={<NotFoundPage />} />
       </Routes>
 
       <Footer />
