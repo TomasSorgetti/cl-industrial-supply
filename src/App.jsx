@@ -1,15 +1,15 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 
-import Navbar from "./components/layout/navbar/Navbar.jsx";
-import Footer from "./components/layout/footer/Footer.jsx";
-
-import HomePage from "./pages/home/Home.jsx";
-import ContactPage from "./pages/contact/Contact.jsx";
-import AboutPage from "./pages/about/About.jsx";
-import CategoryPage from "./pages/category/Category.jsx";
-import ProductPage from "./pages/product/Product.jsx";
-import NotFoundPage from "./pages/error404/Error404.jsx";
+import { Navbar, Footer } from "./components/layout";
+import {
+  HomePage,
+  ContactPage,
+  AboutPage,
+  CategoryPage,
+  ProductPage,
+  NotFoundPage,
+} from "./pages";
 
 function App() {
   return (
