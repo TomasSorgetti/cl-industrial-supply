@@ -6,6 +6,7 @@ export default function HomePage() {
   return (
     <main>
       <h1>{t("Home.title")}</h1>
+      <p>{t("Home.description")}</p>
     </main>
   );
 }

@@ -22,7 +22,6 @@ export default function ProductPage() {
     };
   }, [params.categoryId, i18n.language]);
 
-
   if (error) {
     return (
       <>
@@ -30,18 +29,13 @@ export default function ProductPage() {
       </>
     );
   }
-  
+
   return (
     <main>
       {categoryData && (
         <>
           <h1>{categoryData.title}</h1>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
-            minus ad laboriosam, magnam placeat assumenda ea et quaerat ex aut
-            harum aliquam dolorem nobis maxime mollitia odit? Ratione, explicabo
-            accusantium?
-          </p>
+          <p>{categoryData.description}</p>
         </>
       )}
     </main>
