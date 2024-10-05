@@ -13,12 +13,11 @@ export const getCategoryById = (id, lang) => {
 };
 
 export const getAllCategories = (lang) => {
-  console.log("GET ALL CATEGORIES TEST", lang);
-  console.log("GET ALL CATEGORIES TEST", categories);
+  const normalizedLang = lang.slice(0, 2);
 
   return categories.map((category) => ({
     ...category,
-    title: category.titles[lang],
-    description: category.descriptions[lang],
+    title: category.titles[normalizedLang],
+    description: category.descriptions[normalizedLang],
   }));
 };
