@@ -1,3 +1,4 @@
+import styles from "./CategoriesSection.module.css";
 import { useEffect, useState } from "react";
 import { getAllCategories } from "../../../services/categories.service";
 import { useTranslation } from "react-i18next";
@@ -22,7 +23,7 @@ export default function CategoriesSection() {
   };
 
   return (
-    <div>
+    <div className={styles.container}>
       {categories?.map((category) => (
         <CategoryCard
           key={category.id}

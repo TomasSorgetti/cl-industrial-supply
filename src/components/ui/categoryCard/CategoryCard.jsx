@@ -16,7 +16,7 @@ export default function CategoryCard({
         path={path}
         buttonLabel="Ver más"
       />
-      <img src={image} alt={`${title} vector plan`} />
+      <img className={styles.image} src={image} alt={`${title} vector plan`} />
     </div>
   );
 }
