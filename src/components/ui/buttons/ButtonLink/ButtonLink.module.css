@@ -4,15 +4,28 @@
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 700;
+  transition: all 0.45s ease-in-out;
 }
 .primary {
   background-color: var(--dark-green);
   border: 2px solid var(--dark-green);
 }
+.primary:hover {
+  box-shadow: -2px 4px 20px var(--light-black);
+  background-color: var(--medium-green);
+  border: 2px solid var(--medium-green);
+  color: var(--dark-black);
+}
+
 .secondary {
-  background-color: transparent;
   border: 2px solid var(--white);
 }
+.secondary:hover {
+  background-color: rgba(255, 255, 255, 0.396);
+  color: var(--dark-black);
+  box-shadow: -2px 4px 20px var(--light-black);
+}
+
 .sm {
   padding: 0.5rem 2rem;
 }

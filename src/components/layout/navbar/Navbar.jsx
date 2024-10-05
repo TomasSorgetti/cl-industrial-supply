@@ -8,6 +8,7 @@ import logo from "../../../assets/images/logo.svg";
 
 export default function Navbar() {
   const { t, i18n } = useTranslation();
+  const normalizedLanguage = i18n.language.slice(0, 2);
   const [categoriesData, setCategoriesData] = useState([]);
 
   useEffect(() => {
@@ -51,14 +52,14 @@ export default function Navbar() {
           </li>
           <li className={styles.language}>
             <button
-              className={`${i18n.language === "en" ? styles.active : ""}`}
+              className={`${normalizedLanguage === "en" ? styles.active : ""}`}
               onClick={() => changeLanguage("en")}
             >
               EN
             </button>
             -
             <button
-              className={`${i18n.language === "es" ? styles.active : ""}`}
+              className={`${normalizedLanguage === "es" ? styles.active : ""}`}
               onClick={() => changeLanguage("es")}
             >
               ES

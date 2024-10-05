@@ -1,4 +1,4 @@
-import { products } from "../data/products";
+import { products } from "../assets/data/products";
 
 export function getProductById(id, lang) {
   const product = products.find((product) => product.id === Number(id));

@@ -4,3 +4,9 @@
   align-items: flex-start;
   gap: 3rem;
 }
+.container h2 {
+  max-width: 433px;
+}
+.container p {
+  max-width: 480px;
+}

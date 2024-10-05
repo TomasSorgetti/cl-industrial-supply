@@ -1,4 +1,4 @@
-import { categories } from "../data/categories";
+import { categories } from "../assets/data/categories";
 
 export const getCategoryById = (id, lang) => {
   const category = categories.find((category) => category.id === Number(id));
