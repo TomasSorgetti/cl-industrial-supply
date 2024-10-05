@@ -14,6 +14,13 @@ export default function CategoriesSection() {
     }
   }, [i18n.language]);
 
+  const getOrientation = (id) => {
+    if (id % 2 === 0) {
+      return "left";
+    }
+    return "right";
+  };
+
   return (
     <div>
       {categories?.map((category) => (
@@ -23,6 +30,7 @@ export default function CategoriesSection() {
           text={category.description}
           image={category.image}
           path={`/categories/${category.id}`}
+          orientation={getOrientation(category.id)}
         />
       ))}
     </div>

@@ -3,3 +3,9 @@
   justify-content: space-between;
   align-items: center;
 }
+.right{
+  flex-direction: row;
+}
+.left{
+  flex-direction: row-reverse;
+}
