@@ -8,9 +8,11 @@ export default function CategoriesSection() {
   const [categories, setCategories] = useState([]);
 
   useEffect(() => {
-    const data = getAllCategories(i18n.language);
-    setCategories(data);
-  }, []);
+    if (i18n.language) {
+      const data = getAllCategories(i18n.language);
+      setCategories(data);
+    }
+  }, [i18n.language]);
   console.log("TODO => sacar log", categories);
 
   return (
