@@ -1,6 +1,6 @@
 import styles from "./Home.module.css";
 import { useTranslation } from "react-i18next";
-import { HomeBanner } from "../../components/layout";
+import { CallToAction, HomeBanner } from "../../components/layout";
 import { CategoriesSection } from "../../components/features";
 
 export default function HomePage() {
@@ -12,6 +12,7 @@ export default function HomePage() {
       <div className={styles.wrapper}>
         <CategoriesSection />
       </div>
+      <CallToAction />
     </main>
   );
 }

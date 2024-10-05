@@ -20,5 +20,9 @@
   },
   "Error404": {
     "title": "Error Page"
+  },
+  "CallToAction": {
+    "title": "Lorem ipsum dolor amet sageium tramous",
+    "button": "Contact Us"
   }
 }
