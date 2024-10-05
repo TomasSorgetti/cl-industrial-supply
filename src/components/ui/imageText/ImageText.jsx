@@ -1,7 +1,7 @@
-import styles from "./CategoryCard.module.css";
-import { TitleTextButton } from "../";
+import styles from "./ImageText.module.css";
+import { TitleTextButton } from "..";
 
-export default function CategoryCard({
+export default function ImageText({
   title,
   text,
   path,

@@ -2,7 +2,7 @@ import styles from "./CategoriesSection.module.css";
 import { useEffect, useState } from "react";
 import { getAllCategories } from "../../../services/categories.service";
 import { useTranslation } from "react-i18next";
-import { CategoryCard } from "../../ui";
+import { ImageText } from "../../ui";
 
 export default function CategoriesSection() {
   const { i18n } = useTranslation();
@@ -25,7 +25,7 @@ export default function CategoriesSection() {
   return (
     <div className={styles.container}>
       {categories?.map((category) => (
-        <CategoryCard
+        <ImageText
           key={category.id}
           title={category.title}
           text={category.description}

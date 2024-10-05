@@ -10,7 +10,10 @@
   },
   "Home": {
     "title": "Lorem ipsum dolor amet sageium tramous",
-    "description": "Lorem ipsum dolor amet sageium tramous Lorem ipsum dolor amet sageiu"
+    "description": "Lorem ipsum dolor amet sageium tramous Lorem ipsum dolor amet sageiu",
+    "aboutTitle":"Lorem ipsum dolor amet sageium tramous",
+    "aboutDescription":"Lorem ipsum dolor amet sageium tramous Lorem ipsum dolor amet sageium tramousLorem ipsum dolor amet sageium tramousLorem ipsum dolor amet sageium tramous",
+    "aboutButton":"LOREM IPSUM AMAT"
   },
   "About": {
     "title": "Pagina Sobre Nosotros"
