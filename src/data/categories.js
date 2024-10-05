@@ -1,4 +1,4 @@
-import ganchosCategory from "../../assets/images/categories/gancho_category.svg";
+import ganchosCategory from "../assets/images/categories/gancho_category.svg";
 
 export const categories = [
   {
