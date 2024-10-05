@@ -11,6 +11,7 @@ export default function CategoriesSection() {
     const data = getAllCategories(i18n.language);
     setCategories(data);
   }, []);
+  console.log("TODO => sacar log", categories);
 
   return (
     <div>
@@ -20,8 +21,7 @@ export default function CategoriesSection() {
           title={category.title}
           text={category.description}
           image={category.image}
-          path={`/category/${category.id}`}
-          buttonLabel="Ver más"
+          path={`/categories/${category.id}`}
         />
       ))}
     </div>
