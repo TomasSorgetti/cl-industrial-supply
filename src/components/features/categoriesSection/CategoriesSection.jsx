@@ -13,7 +13,6 @@ export default function CategoriesSection() {
       setCategories(data);
     }
   }, [i18n.language]);
-  console.log("TODO => sacar log", categories);
 
   return (
     <div>

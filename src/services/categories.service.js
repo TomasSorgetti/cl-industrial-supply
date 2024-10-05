@@ -13,6 +13,9 @@ export const getCategoryById = (id, lang) => {
 };
 
 export const getAllCategories = (lang) => {
+  console.log("GET ALL CATEGORIES TEST", lang);
+  console.log("GET ALL CATEGORIES TEST", categories);
+
   return categories.map((category) => ({
     ...category,
     title: category.titles[lang],
