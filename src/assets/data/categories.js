@@ -1,3 +1,5 @@
+import ganchosCategory from "../../assets/images/categories/gancho_category.svg";
+
 export const categories = [
   {
     id: 1,
@@ -6,9 +8,10 @@ export const categories = [
       en: "Category 1",
     },
     descriptions: {
-      es: "Descripción 1",
-      en: "Description 1",
+      es: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      en: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
     },
+    image: ganchosCategory,
   },
   {
     id: 2,
@@ -17,9 +20,10 @@ export const categories = [
       en: "Category 2",
     },
     descriptions: {
-      es: "Descripción 2",
-      en: "Description 2",
+      es: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      en: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
     },
+    image: ganchosCategory,
   },
   {
     id: 3,
@@ -28,9 +32,10 @@ export const categories = [
       en: "Category 3",
     },
     descriptions: {
-      es: "Descripción 3",
-      en: "Description 3",
+      es: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      en: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
     },
+    image: ganchosCategory,
   },
   {
     id: 4,
@@ -39,8 +44,9 @@ export const categories = [
       en: "Category 4",
     },
     descriptions: {
-      es: "Descripción 4",
-      en: "Description 4",
+      es: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      en: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
     },
+    image: ganchosCategory,
   },
 ];

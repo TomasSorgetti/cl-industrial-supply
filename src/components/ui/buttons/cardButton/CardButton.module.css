@@ -1,0 +1,24 @@
+.button {
+  color: var(--white);
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.5rem;
+  border-left: 6px solid var(--medium-green);
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  transition: all 0.45s ease-in-out;
+}
+
+.button img {
+  transition: all 0.3s ease-in-out;
+}
+.button:hover img {
+  transform: translateX(0.5rem);
+}
+.button:hover {
+  border-left: 6px solid var(--light-green);
+}
