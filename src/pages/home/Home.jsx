@@ -11,8 +11,9 @@ export default function HomePage() {
     <main className={styles.home_main}>
       <HomeBanner />
       <div className={styles.wrapper}>
+
         <div className={styles.aboutCard}>
-          <img src={homeAbout} alt="todo" />
+          <img src={homeAbout} alt="todo" className={styles.aboutImg}/>
           <TitleTextButton
             title={t("Home.aboutTitle")}
             text={t("Home.aboutDescription")}
@@ -20,6 +21,7 @@ export default function HomePage() {
             buttonLabel={t("Home.aboutButton")}
           />
         </div>
+        
         <CategoriesSection />
       </div>
       <CallToAction />

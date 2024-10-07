@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 90vh;
+  height: 100vh;
 }
 .wrapper {
   max-width: 1200px;
@@ -14,6 +14,26 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1180px) {
+
+  .wrapper {
+    justify-content: center;
+  }
+  .logo {
+    display: none;
+  }
+
+  .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
 }
 
 .content h1 {
