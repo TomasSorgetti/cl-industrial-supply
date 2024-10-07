@@ -1,0 +1,14 @@
+.button {
+  color: var(--white);
+  background-color: var(--dark-green);
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.5rem;
+  height: 64px;
+  border: 2px solid var(--dark-green);
+  width: 100%;
+  max-width: 621px;
+  text-align: center;
+  transition: all 0.45s ease-in-out;
+}

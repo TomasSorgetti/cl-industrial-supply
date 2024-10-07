@@ -1,0 +1,16 @@
+.title_container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.title_container img {
+  width: 223px;
+}
+.divider {
+  height: 5px;
+  width: 143px;
+  background-color: var(--medium-green);
+}

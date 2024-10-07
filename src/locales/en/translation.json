@@ -19,7 +19,17 @@
     "title": "About Page"
   },
   "Contact": {
-    "title": "Contact Page"
+    "title": "Contact Us",
+    "description": "Lorem ipsum dolor amet sageium tramous Lorem ipsum dolor amet .",
+    "formNameLabel": "Name:",
+    "formNameInput": "John Doe",
+    "formPhoneLabel": "Celphone:",
+    "formPhoneInput": "XX XXXX XXXX",
+    "formEmailLabel": "Email:",
+    "formEmailInput": "johndoe@mail.com",
+    "formMessageLabel": "Menssage:",
+    "formMessageInput": "Write your message...",
+    "formButton": "Send message"
   },
   "Error404": {
     "title": "Error Page"

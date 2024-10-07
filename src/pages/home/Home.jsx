@@ -8,7 +8,7 @@ export default function HomePage() {
   const { t } = useTranslation();
 
   return (
-    <main>
+    <main className={styles.home_main}>
       <HomeBanner />
       <div className={styles.wrapper}>
         <div className={styles.aboutCard}>
@@ -20,7 +20,6 @@ export default function HomePage() {
             buttonLabel={t("Home.aboutButton")}
           />
         </div>
-
         <CategoriesSection />
       </div>
       <CallToAction />

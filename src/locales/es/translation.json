@@ -11,15 +11,25 @@
   "Home": {
     "title": "Lorem ipsum dolor amet sageium tramous",
     "description": "Lorem ipsum dolor amet sageium tramous Lorem ipsum dolor amet sageiu",
-    "aboutTitle":"Lorem ipsum dolor amet sageium tramous",
-    "aboutDescription":"Lorem ipsum dolor amet sageium tramous Lorem ipsum dolor amet sageium tramousLorem ipsum dolor amet sageium tramousLorem ipsum dolor amet sageium tramous",
-    "aboutButton":"LOREM IPSUM AMAT"
+    "aboutTitle": "Lorem ipsum dolor amet sageium tramous",
+    "aboutDescription": "Lorem ipsum dolor amet sageium tramous Lorem ipsum dolor amet sageium tramousLorem ipsum dolor amet sageium tramousLorem ipsum dolor amet sageium tramous",
+    "aboutButton": "LOREM IPSUM AMAT"
   },
   "About": {
     "title": "Pagina Sobre Nosotros"
   },
   "Contact": {
-    "title": "Pagina Contacto"
+    "title": "Contactanos",
+    "description": "Lorem ipsum dolor amet sageium tramous Lorem ipsum dolor amet .",
+    "formNameLabel": "Nombre:",
+    "formNameInput": "Juan Perez",
+    "formPhoneLabel": "Teléfono:",
+    "formPhoneInput": "XX XXXX XXXX",
+    "formEmailLabel": "Email:",
+    "formEmailInput": "juanperez@mail.com",
+    "formMessageLabel": "Mensaje:",
+    "formMessageInput": "Escribe tu mensaje...",
+    "formButton":"Enviar mensaje"
   },
   "Error404": {
     "title": "Pagina de Error"

@@ -1,0 +1,31 @@
+.container {
+  width: 100%;
+  max-width: 620px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.container label {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.container input,
+.container textarea {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #949494;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  color: var(--white);
+}
+.container textarea {
+  height: 200px;
+  resize: none;
+}
+
+.container.error input,
+.container.error textarea {
+  border-bottom: 2px solid var(--error);
+}
