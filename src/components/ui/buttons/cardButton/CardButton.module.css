@@ -5,20 +5,25 @@
   cursor: pointer;
   font-weight: 700;
   font-size: 1.5rem;
-  border-left: 6px solid var(--medium-green);
   padding: 0.5rem 1rem;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   gap: 2rem;
   transition: all 0.45s ease-in-out;
 }
-
+.bar {
+  width: 6px;
+  height: 48px;
+  background-color: var(--medium-green);
+  transition: all 0.45s ease-in-out;
+}
 .button img {
   transition: all 0.3s ease-in-out;
 }
 .button:hover img {
-  transform: translateX(0.5rem);
+  transform: translateX(0.8rem);
 }
-.button:hover {
-  border-left: 6px solid var(--light-green);
+.button:hover .bar {
+  margin-right: 1rem;
 }

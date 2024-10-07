@@ -21,7 +21,7 @@
   border: 2px solid var(--white);
 }
 .secondary:hover {
-  background-color: rgba(255, 255, 255, 0.396);
+  background-color: var(--white);
   color: var(--dark-black);
   box-shadow: -2px 4px 20px var(--light-black);
 }

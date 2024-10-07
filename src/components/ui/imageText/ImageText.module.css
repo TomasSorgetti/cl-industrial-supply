@@ -15,9 +15,3 @@
 .image {
   transition: all 0.6s ease-in-out;
 }
-.container.right:hover .image {
-  transform: scale(1.05) rotate(3deg);
-}
-.container.left:hover .image {
-  transform: scale(1.05) rotate(-3deg);
-}
