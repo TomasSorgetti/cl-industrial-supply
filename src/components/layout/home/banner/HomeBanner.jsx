@@ -21,7 +21,7 @@ export default function HomeBanner() {
             </ButtonLink>
           </div>
         </div>
-        <img src={bannerLogo} alt="CL industrial supply logo" />
+        <img src={bannerLogo} alt="CL industrial supply logo" className={styles.logo} />
       </div>
     </section>
   );

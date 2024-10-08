@@ -8,4 +8,31 @@
   justify-content: space-between;
   gap: 5rem;
   margin: 20rem 0;
+ 
+}
+@media screen and (max-width: 1180px) {
+  .aboutCard {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 0;
+   
+  }
+
+  .aboutCard .aboutImg {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .aboutCard div{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    text-align: center;
+  }
+
+  .wrapper {
+    padding: 40px;
+  }
 }
