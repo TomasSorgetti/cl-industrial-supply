@@ -9,6 +9,8 @@
     align-items: center;
     justify-content: flex-start;
     gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   .bar {
     width: 6px;
