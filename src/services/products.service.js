@@ -8,10 +8,11 @@ export function getProductById(id, lang) {
   return null;
 }
 
-export function getProductsByCategory(categoryId, lang) {
+export function getProductsByCategory(category, lang) {
   const filteredProducts = products.filter(
-    (product) => product.categoryId === Number(categoryId)
+    (product) => product.category[lang] === category
   );
+
   const normalizedLang = lang.slice(0, 2);
 
   if (filteredProducts.length > 0) {

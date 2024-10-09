@@ -1,10 +1,6 @@
 import ganchosCategory from "../images/categories/gancho_category.svg";
 
-
 export const products = [
-
-
-
   // GANCHOS
   {
     id: 1,
@@ -16,8 +12,10 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 1,
-
+    category: {
+      es: "Ganchos",
+      en: "Hooks",
+    },
     image: ganchosCategory,
   },
   {
@@ -30,7 +28,10 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 1,
+    category: {
+      es: "Ganchos",
+      en: "Hooks",
+    },
     image: ganchosCategory,
   },
   {
@@ -43,7 +44,10 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 1,
+    category: {
+      es: "Ganchos",
+      en: "Hooks",
+    },
     image: ganchosCategory,
   },
   {
@@ -56,7 +60,10 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 1,
+    category: {
+      es: "Cables de Acero",
+      en: "Steel Cables",
+    },
     image: ganchosCategory,
   },
   {
@@ -69,7 +76,10 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 1,
+    category: {
+      es: "Ganchos",
+      en: "Hooks",
+    },
     image: ganchosCategory,
   },
   {
@@ -82,11 +92,12 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 1,
+    category: {
+      es: "Cables de Acero",
+      en: "Steel Cables",
+    },
     image: ganchosCategory,
   },
-
-
 
   // Cables de acero
 
@@ -100,7 +111,10 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 2,
+    category: {
+      es: "Cables de Acero",
+      en: "Steel Cables",
+    },
     image: ganchosCategory,
   },
   {
@@ -113,7 +127,10 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 2,
+    category: {
+      es: "Cables de Acero",
+      en: "Steel Cables",
+    },
     image: ganchosCategory,
   },
   {
@@ -126,7 +143,10 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 2,
+    category: {
+      es: "Cables de Acero",
+      en: "Steel Cables",
+    },
     image: ganchosCategory,
   },
   {
@@ -139,7 +159,10 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 2,
+    category: {
+      es: "Cables de Acero",
+      en: "Steel Cables",
+    },
     image: ganchosCategory,
   },
   {
@@ -152,7 +175,10 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 2,
+    category: {
+      es: "Cables de Acero",
+      en: "Steel Cables",
+    },
     image: ganchosCategory,
   },
   {
@@ -165,11 +191,12 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 2,
+    category: {
+      es: "Cables de Acero",
+      en: "Steel Cables",
+    },
     image: ganchosCategory,
   },
-
-
 
   // Cadenas de Alta Resistencia
 
@@ -183,7 +210,10 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 3,
+    category: {
+      es: "Cadenas de Alta Resistencia",
+      en: "High Resistance Chains",
+    },
     image: ganchosCategory,
   },
   {
@@ -196,7 +226,10 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 3,
+    category: {
+      es: "Cadenas de Alta Resistencia",
+      en: "High Resistance Chains",
+    },
     image: ganchosCategory,
   },
   {
@@ -209,7 +242,10 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 3,
+    category: {
+      es: "Cadenas de Alta Resistencia",
+      en: "High Resistance Chains",
+    },
     image: ganchosCategory,
   },
   {
@@ -222,10 +258,12 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 3,
+    category: {
+      es: "Cadenas de Alta Resistencia",
+      en: "High Resistance Chains",
+    },
     image: ganchosCategory,
   },
-
 
   // Fibra Sintética
   {
@@ -238,7 +276,10 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 4,
+    category: {
+      es: "Fibra Sintética",
+      en: "Synthetic Fiber",
+    },
     image: ganchosCategory,
   },
   {
@@ -251,13 +292,12 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 4,
+    category: {
+      es: "Fibra Sintética",
+      en: "Synthetic Fiber",
+    },
     image: ganchosCategory,
   },
-  
-
-
-
 
   // Cáncamos
   {
@@ -270,7 +310,10 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 5,
+    category: {
+      es: "Cáncamos",
+      en: "Eyebolts",
+    },
     image: ganchosCategory,
   },
   {
@@ -283,7 +326,10 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 5,
+    category: {
+      es: "Cáncamos",
+      en: "Eyebolts",
+    },
     image: ganchosCategory,
   },
   {
@@ -296,11 +342,12 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 5,
+    category: {
+      es: "Cáncamos",
+      en: "Eyebolts",
+    },
     image: ganchosCategory,
   },
-
-
 
   // Grilletes
   {
@@ -313,7 +360,10 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 6,
+    category: {
+      es: "Grilletes",
+      en: "Shackles",
+    },
     image: ganchosCategory,
   },
   {
@@ -326,7 +376,10 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 6,
+    category: {
+      es: "Grilletes",
+      en: "Shackles",
+    },
     image: ganchosCategory,
   },
   {
@@ -339,7 +392,10 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 6,
+    category: {
+      es: "Grilletes",
+      en: "Shackles",
+    },
     image: ganchosCategory,
   },
   {
@@ -352,10 +408,12 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 6,
+    category: {
+      es: "Grilletes",
+      en: "Shackles",
+    },
     image: ganchosCategory,
   },
-  
 
   // Equipos de Elevación
   {
@@ -368,7 +426,10 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 7,
+    category: {
+      es: "Equipos de Elevación",
+      en: "Lifting Equipment",
+    },
     image: ganchosCategory,
   },
   {
@@ -381,7 +442,10 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 7,
+    category: {
+      es: "Equipos de Elevación",
+      en: "Lifting Equipment",
+    },
     image: ganchosCategory,
   },
   {
@@ -394,7 +458,10 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 7,
+    category: {
+      es: "Equipos de Elevación",
+      en: "Lifting Equipment",
+    },
     image: ganchosCategory,
   },
   {
@@ -407,7 +474,10 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 7,
+    category: {
+      es: "Equipos de Elevación",
+      en: "Lifting Equipment",
+    },
     image: ganchosCategory,
   },
   {
@@ -420,9 +490,10 @@ export const products = [
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 7,
+    category: {
+      es: "Equipos de Elevación",
+      en: "Lifting Equipment",
+    },
     image: ganchosCategory,
   },
-
-
 ];

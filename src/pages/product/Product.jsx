@@ -1,3 +1,4 @@
+import styles from "./Product.module.css";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useParams } from "react-router-dom";
@@ -15,6 +16,11 @@ export default function ProductPage() {
       setError(true);
     }
     setProductData(data);
+
+    return () => {
+      setError(false);
+      setProductData(null);
+    };
   }, [i18n.language, params.productId]);
 
   if (error) {

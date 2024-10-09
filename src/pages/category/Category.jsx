@@ -37,15 +37,15 @@ export default function ProductPage() {
     <main>
       {categoryData && (
         <div className={styles.container}>
-          <div className={styles.imagetext_container}> 
-              <ImageText
-                title={categoryData.title}
-                image={categoryData.image}
-                text={categoryData.description}
-              />
+          <div className={styles.imagetext_container}>
+            <ImageText
+              title={categoryData.title}
+              image={categoryData.image}
+              text={categoryData.description}
+            />
           </div>
-         
-          <ProductList categoryId={params.categoryId} />
+
+          <ProductList category={categoryData.title} />
         </div>
       )}
     </main>

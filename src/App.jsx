@@ -25,7 +25,7 @@ function App() {
         {/* <Route path="/categories" element={<h1>Categories</h1>} /> */}
         <Route path="/categories/:categoryId" element={<CategoryPage />} />
         {/* productos */}
-        <Route path="/product/:productId" element={<ProductPage />} />
+        <Route path="/products/:productId" element={<ProductPage />} />
 
         {/* error */}
         <Route path="/*" element={<NotFoundPage />} />
