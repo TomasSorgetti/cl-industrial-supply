@@ -2,11 +2,15 @@ import ganchosCategory from "../images/categories/gancho_category.svg";
 
 
 export const products = [
+
+
+
+  // GANCHOS
   {
     id: 1,
     titles: {
-      es: "Producto 1",
-      en: "Product 1",
+      es: "Ganchos con Traba",
+      en: "Locking Hooks",
     },
     descriptions: {
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
@@ -19,8 +23,8 @@ export const products = [
   {
     id: 2,
     titles: {
-      es: "Producto 2",
-      en: "Product 2",
+      es: "Ganchos con Vástago",
+      en: "Shank Hooks",
     },
     descriptions: {
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
@@ -32,21 +36,65 @@ export const products = [
   {
     id: 3,
     titles: {
-      es: "Producto 3",
-      en: "Product 3",
+      es: "Ganchos de Seguridad",
+      en: "Safety Hooks",
     },
     descriptions: {
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 2,
+    categoryId: 1,
     image: ganchosCategory,
   },
   {
     id: 4,
     titles: {
-      es: "Producto 4",
-      en: "Product 4",
+      es: "Ganchos Especiales",
+      en: "Special Hooks",
+    },
+    descriptions: {
+      es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+      en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    categoryId: 1,
+    image: ganchosCategory,
+  },
+  {
+    id: 5,
+    titles: {
+      es: "Ganchos para Cable de Acero",
+      en: "Steel Cable Hooks",
+    },
+    descriptions: {
+      es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+      en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    categoryId: 1,
+    image: ganchosCategory,
+  },
+  {
+    id: 6,
+    titles: {
+      es: "Ganchos para Cadena",
+      en: "Chain Hooks",
+    },
+    descriptions: {
+      es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+      en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    categoryId: 1,
+    image: ganchosCategory,
+  },
+
+
+
+  // Cables de acero
+
+  {
+    id: 7,
+    titles: {
+      es: "Cables de Acero",
+      en: "Steel Cables",
     },
     descriptions: {
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
@@ -56,62 +104,135 @@ export const products = [
     image: ganchosCategory,
   },
   {
-    id: 5,
-    titles: {
-      es: "Producto 4",
-      en: "Product 4",
-    },
-    descriptions: {
-      es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
-      en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
-    },
-    categoryId: 3,
-    image: ganchosCategory,
-  },
-  {
-    id: 6,
-    titles: {
-      es: "Producto 4",
-      en: "Product 4",
-    },
-    descriptions: {
-      es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
-      en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
-    },
-    categoryId: 3,
-    image: ganchosCategory,
-  },
-  {
-    id: 7,
-    titles: {
-      es: "Producto 4",
-      en: "Product 4",
-    },
-    descriptions: {
-      es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
-      en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
-    },
-    categoryId: 4,
-    image: ganchosCategory,
-  },
-  {
     id: 8,
     titles: {
-      es: "Producto 4",
-      en: "Product 4",
+      es: "Eslingas de Cables de Acero",
+      en: "Steel Cable Slings",
     },
     descriptions: {
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
       en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
     },
-    categoryId: 4,
+    categoryId: 2,
     image: ganchosCategory,
   },
   {
     id: 9,
     titles: {
-      es: "Producto 4",
-      en: "Product 4",
+      es: "Grampas Prensacable",
+      en: "Pressable Clamps",
+    },
+    descriptions: {
+      es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+      en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    categoryId: 2,
+    image: ganchosCategory,
+  },
+  {
+    id: 10,
+    titles: {
+      es: "Guardacabos",
+      en: "Thimblekeeper",
+    },
+    descriptions: {
+      es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+      en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    categoryId: 2,
+    image: ganchosCategory,
+  },
+  {
+    id: 11,
+    titles: {
+      es: "Tensores",
+      en: "Tensioners",
+    },
+    descriptions: {
+      es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+      en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    categoryId: 2,
+    image: ganchosCategory,
+  },
+  {
+    id: 12,
+    titles: {
+      es: "Terminales para Cables de Acero ",
+      en: "Terminals for Steel Cables",
+    },
+    descriptions: {
+      es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+      en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    categoryId: 2,
+    image: ganchosCategory,
+  },
+
+
+
+  // Cadenas de Alta Resistencia
+
+  {
+    id: 12,
+    titles: {
+      es: "Cadenas grado 80 y 100",
+      en: "Chains grade 80 and 100",
+    },
+    descriptions: {
+      es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+      en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    categoryId: 3,
+    image: ganchosCategory,
+  },
+  {
+    id: 13,
+    titles: {
+      es: "Conectores para Cadena",
+      en: "Chain Connectors",
+    },
+    descriptions: {
+      es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+      en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    categoryId: 3,
+    image: ganchosCategory,
+  },
+  {
+    id: 14,
+    titles: {
+      es: "Eslabón Maestro",
+      en: "Master Link",
+    },
+    descriptions: {
+      es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+      en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    categoryId: 3,
+    image: ganchosCategory,
+  },
+  {
+    id: 15,
+    titles: {
+      es: "Eslingas de Cadena",
+      en: "Chain Slings",
+    },
+    descriptions: {
+      es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+      en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    categoryId: 3,
+    image: ganchosCategory,
+  },
+
+
+  // Fibra Sintética
+  {
+    id: 16,
+    titles: {
+      es: "Accesorios para Faja",
+      en: "Girdle Accessories",
     },
     descriptions: {
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
@@ -121,10 +242,29 @@ export const products = [
     image: ganchosCategory,
   },
   {
-    id: 10,
+    id: 17,
     titles: {
-      es: "Producto 4",
-      en: "Product 4",
+      es: "Eslingas de Poliester",
+      en: "Polyester Slings",
+    },
+    descriptions: {
+      es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+      en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    categoryId: 4,
+    image: ganchosCategory,
+  },
+  
+
+
+
+
+  // Cáncamos
+  {
+    id: 18,
+    titles: {
+      es: "Cáncamos Giratorios",
+      en: "Swivel Eyebolts",
     },
     descriptions: {
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
@@ -134,10 +274,10 @@ export const products = [
     image: ganchosCategory,
   },
   {
-    id: 11,
+    id: 19,
     titles: {
-      es: "Producto 4",
-      en: "Product 4",
+      es: "Cáncamos Fijos",
+      en: "Fixed Eyebolts",
     },
     descriptions: {
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
@@ -147,10 +287,27 @@ export const products = [
     image: ganchosCategory,
   },
   {
-    id: 12,
+    id: 20,
     titles: {
-      es: "Producto 4",
-      en: "Product 4",
+      es: "Cáncamo y Gancho Soldable",
+      en: "Eyebolt and Weldable Hook",
+    },
+    descriptions: {
+      es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+      en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    categoryId: 5,
+    image: ganchosCategory,
+  },
+
+
+
+  // Grilletes
+  {
+    id: 21,
+    titles: {
+      es: "Grilletes Corazón con Perno Roscado",
+      en: "Heart Shackles with Threaded Bolt",
     },
     descriptions: {
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
@@ -160,10 +317,10 @@ export const products = [
     image: ganchosCategory,
   },
   {
-    id: 13,
+    id: 22,
     titles: {
-      es: "Producto 4",
-      en: "Product 4",
+      es: "Grilletes Corazón con Tuerca y Chaveta",
+      en: "Heart Shackles with Nut and Cotter Pin",
     },
     descriptions: {
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
@@ -173,10 +330,39 @@ export const products = [
     image: ganchosCategory,
   },
   {
-    id: 14,
+    id: 23,
     titles: {
-      es: "Producto 4",
-      en: "Product 4",
+      es: "Grilletes Recto con Perno Roscado",
+      en: "Straight Shackles with Threaded Bolt",
+    },
+    descriptions: {
+      es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+      en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    categoryId: 6,
+    image: ganchosCategory,
+  },
+  {
+    id: 24,
+    titles: {
+      es: "Grilletes Recto con Tuerca y Chaveta",
+      en: "Straight Shackles with Nut and Cotter Pin",
+    },
+    descriptions: {
+      es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+      en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    categoryId: 6,
+    image: ganchosCategory,
+  },
+  
+
+  // Equipos de Elevación
+  {
+    id: 25,
+    titles: {
+      es: "Atacargas",
+      en: "Load Binder",
     },
     descriptions: {
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
@@ -186,10 +372,10 @@ export const products = [
     image: ganchosCategory,
   },
   {
-    id: 15,
+    id: 26,
     titles: {
-      es: "Producto 4",
-      en: "Product 4",
+      es: "Carros de Traslación",
+      en: "Transfer Carts",
     },
     descriptions: {
       es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
@@ -198,4 +384,45 @@ export const products = [
     categoryId: 7,
     image: ganchosCategory,
   },
+  {
+    id: 27,
+    titles: {
+      es: "Aparejos: Equipos Eléctricos",
+      en: "Rigging: Electrical Equipment",
+    },
+    descriptions: {
+      es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+      en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    categoryId: 7,
+    image: ganchosCategory,
+  },
+  {
+    id: 28,
+    titles: {
+      es: "Aparejos: Equipos Manuales",
+      en: "Rigging: Manual Rigs",
+    },
+    descriptions: {
+      es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+      en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    categoryId: 7,
+    image: ganchosCategory,
+  },
+  {
+    id: 29,
+    titles: {
+      es: "Garras para Chapa",
+      en: "Sheet Metal Grippers",
+    },
+    descriptions: {
+      es: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+      en: "lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.",
+    },
+    categoryId: 7,
+    image: ganchosCategory,
+  },
+
+
 ];
