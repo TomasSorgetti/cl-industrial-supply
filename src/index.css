@@ -7,7 +7,7 @@
   --light-green: #a0fff9;
 
   --white: #ffffff;
-  
+
   --error: #ff0000;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -34,6 +34,10 @@
 }
 body {
   background-color: var(--dark-black);
+  background-image: url("./assets//images/pattern.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
   color: var(--white);
   font-family: "Encode Sans", sans-serif;
   font-size: 1.125rem;

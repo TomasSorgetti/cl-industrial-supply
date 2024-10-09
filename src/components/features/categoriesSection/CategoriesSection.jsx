@@ -32,6 +32,8 @@ export default function CategoriesSection() {
           image={category.image}
           path={`/categories/${category.id}`}
           orientation={getOrientation(category.id)}
+          buttonLabel="Ver más"
+          border
         />
       ))}
     </div>

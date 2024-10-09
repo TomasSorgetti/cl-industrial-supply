@@ -37,5 +37,8 @@
   "CallToAction": {
     "title": "Lorem ipsum dolor amet sageium tramous",
     "button": "Contact Us"
+  },
+  "ProductList":{
+    "button": "View product"
   }
 }

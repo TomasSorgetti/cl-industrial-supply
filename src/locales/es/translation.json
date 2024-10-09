@@ -29,7 +29,7 @@
     "formEmailInput": "juanperez@mail.com",
     "formMessageLabel": "Mensaje:",
     "formMessageInput": "Escribe tu mensaje...",
-    "formButton":"Enviar mensaje"
+    "formButton": "Enviar mensaje"
   },
   "Error404": {
     "title": "Pagina de Error"
@@ -37,5 +37,8 @@
   "CallToAction": {
     "title": "Lorem ipsum dolor amet sageium tramous",
     "button": "Contactanos"
+  },
+  "ProductList": {
+    "button": "Ver producto"
   }
 }

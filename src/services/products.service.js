@@ -7,3 +7,20 @@ export function getProductById(id, lang) {
   }
   return null;
 }
+
+export function getProductsByCategory(categoryId, lang) {
+  const filteredProducts = products.filter(
+    (product) => product.categoryId === Number(categoryId)
+  );
+  const normalizedLang = lang.slice(0, 2);
+
+  if (filteredProducts.length > 0) {
+    return filteredProducts.map((product) => ({
+      ...product,
+      title: product.titles[normalizedLang],
+      description: product.descriptions[normalizedLang],
+    }));
+  } else {
+    return null;
+  }
+}

@@ -4,6 +4,8 @@
   align-items: center;
   padding-bottom: 6rem;
   margin-bottom: 8rem;
+}
+.border {
   border-bottom: 1px solid var(--medium-green);
 }
 .right {

@@ -6,15 +6,17 @@ export default function ImageText({
   text,
   path,
   image,
+  buttonLabel,
   orientation = "right",
+  border = false,
 }) {
   return (
-    <div className={`${styles.container} ${styles[orientation]}`}>
+    <div className={`${styles.container} ${styles[orientation]} ${border ? styles.border : ""}`}>
       <TitleTextButton
         title={title}
         text={text}
         path={path}
-        buttonLabel="Ver más"
+        buttonLabel={buttonLabel}
       />
       <img className={styles.image} src={image} alt={`${title} vector plan`} />
     </div>
