@@ -1,0 +1,14 @@
+.container {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 250px;
+}
+
+.imagetext_container div {
+
+    padding-bottom: 3rem;
+    margin-bottom: 4rem;
+
+ }

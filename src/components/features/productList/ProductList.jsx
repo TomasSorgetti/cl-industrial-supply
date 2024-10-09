@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { getProductsByCategory } from "../../../services/products.service";
 import ProductCard from "../../ui/productCard/ProductCard";
+import styles from "./ProductList.module.css";
 
 export default function ProductList({ categoryId }) {
   const { t, i18n } = useTranslation();
@@ -14,7 +15,7 @@ export default function ProductList({ categoryId }) {
   }, []);
 
   return (
-    <div>
+    <div className={styles.cards_main_container}>
       {products?.map((product) => (
         <ProductCard
           key={product.id}
