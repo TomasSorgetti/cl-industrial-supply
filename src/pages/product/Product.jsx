@@ -1,10 +1,12 @@
 import styles from "./Product.module.css";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { getProductById } from "../../services/products.service";
+import { ButtonLink } from "../../components/ui";
 
 export default function ProductPage() {
+  const navigate = useNavigate();
   const { t, i18n } = useTranslation();
   const params = useParams();
   const [productData, setProductData] = useState(null);
@@ -30,18 +32,30 @@ export default function ProductPage() {
       </>
     );
   }
+
   return (
-    <main>
+    <main className={styles.container}>
+      <div className={styles.breadcrumbs}>
+        <button onClick={() => navigate(-1)} className={styles.return}>
+          {productData?.category[i18n.language]} /
+        </button>
+        <span>{productData?.title}</span>
+      </div>
       {productData && (
-        <>
-          <h1>{productData.title}</h1>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
-            minus ad laboriosam, magnam placeat assumenda ea et quaerat ex aut
-            harum aliquam dolorem nobis maxime mollitia odit? Ratione, explicabo
-            accusantium?
-          </p>
-        </>
+        <div className={styles.productContainer}>
+          <img src={productData.image} alt={productData.title} />
+          <div className={styles.productInfo}>
+            <h1>{productData.title}</h1>
+            <p>{productData.description}</p>
+            <a
+              href={`/src/assets/pdf/${productData.id}.pdf`}
+              download
+              className={styles.download}
+            >
+              {t("Product.download")}
+            </a>
+          </div>
+        </div>
       )}
     </main>
   );

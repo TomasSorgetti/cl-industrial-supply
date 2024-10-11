@@ -3,7 +3,11 @@ import { products } from "../assets/data/products";
 export function getProductById(id, lang) {
   const product = products.find((product) => product.id === Number(id));
   if (product) {
-    return { ...product, title: product.titles[lang] };
+    return {
+      ...product,
+      title: product.titles[lang],
+      description: product.descriptions[lang],
+    };
   }
   return null;
 }

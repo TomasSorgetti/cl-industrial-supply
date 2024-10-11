@@ -40,5 +40,8 @@
   },
   "ProductList":{
     "button": "View product"
+  },
+  "Product":{
+    "download": "Download"
   }
 }
