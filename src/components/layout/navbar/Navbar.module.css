@@ -1,3 +1,4 @@
+/* Header */
 .header {
   position: fixed;
   top: 0;
@@ -5,6 +6,11 @@
   width: 100%;
   z-index: 100;
   padding: 1rem 0;
+  transition: background-color 0.3s ease;
+}
+.header.scrolled {
+  background-color: var(--dark-black);
+  opacity: 0.9;
 }
 .header nav {
   max-width: 1200px;
@@ -13,13 +19,15 @@
   justify-content: space-between;
   align-items: center;
 }
-.header nav ul {
+
+/* Menu */
+.menu {
   display: flex;
   list-style: none;
   gap: 1.5rem;
 }
 
-.header nav ul li a,
+.menu li a,
 .dropdown {
   text-decoration: none;
   color: var(--white);
@@ -27,6 +35,37 @@
   cursor: pointer;
 }
 
+/* Dropdown */
+.dropdown{
+  position: relative;
+}
+.dropdown ul{
+  position: absolute;
+  top: calc(100% + 1.5rem);
+  left: 0;
+  width: 260px;
+  background-color: var(--dark-black);
+  padding: 0.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  visibility: hidden;
+  list-style: none;
+  transition: all 0.45s ease-in-out;  
+}
+
+.dropdown:hover ul{
+  opacity: 1;
+  visibility: visible;
+}
+.dropdown ul li{
+  padding: 0.8rem 0;
+}
+.dropdown ul li:hover a{
+  color: var(--medium-green);
+}
+
+/* Language */
 .language {
   display: flex;
   align-items: center;
@@ -42,4 +81,75 @@
 .language button.active {
   color: var(--medium-green);
   font-weight: 700;
+}
+
+/* Active Navbar */
+.header.active .menu{
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* Hamburger */
+.hamburger{
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  background-color: transparent;
+  border: none;
+  flex-direction: column;
+  gap: 8px;
+  cursor: pointer;
+}
+.hamburger_bar{
+  width: 35px;
+  height: 3px;
+  background-color: var(--white);
+}
+
+
+/* Todo => Ver los breakpoints */
+@media screen and (max-width: 1200px) {
+  .header {
+    padding: 1rem 2.5rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .header.scrolled.active{
+    opacity: 1;
+  }
+  .menu{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: var(--dark-black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    z-index: -1;
+    transform: translateX(100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.45s ease-in-out;
+  }
+  .header.active .menu .dropdown:hover ul{
+    opacity: 0;
+    visibility: hidden;      
+  }
+  .header.active .menu{
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .hamburger {
+      display: flex;
+      opacity: 1;
+      visibility: visible;
+    }
+  
 }
