@@ -97,15 +97,26 @@
   background-color: transparent;
   border: none;
   flex-direction: column;
-  gap: 8px;
+  gap: 9px;
   cursor: pointer;
 }
 .hamburger_bar{
   width: 35px;
   height: 3px;
   background-color: var(--white);
+  transition: all 0.3s ease;
+  transform-origin: center;
 }
-
+.header.active .hamburger_bar:nth-child(1){
+  transform: translateY(12px) rotate(45deg);
+}
+.header.active .hamburger_bar:nth-child(2){
+  opacity: 0;
+  visibility: hidden;
+}
+.header.active .hamburger_bar:nth-child(3){
+  transform: translateY(-12px) rotate(-45deg);
+}
 
 /* Todo => Ver los breakpoints */
 @media screen and (max-width: 1200px) {
