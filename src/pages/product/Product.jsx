@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import { useNavigate, useParams } from "react-router-dom";
 import { getProductById } from "../../services/products.service";
 import { ButtonLink } from "../../components/ui";
+import categoryArrow from "../../assets/icons/category_arrow.png";
 
 export default function ProductPage() {
   const navigate = useNavigate();
@@ -37,6 +38,7 @@ export default function ProductPage() {
     <main className={styles.container}>
       <div className={styles.breadcrumbs}>
         <button onClick={() => navigate(-1)} className={styles.return}>
+          <img src={categoryArrow} alt="arrow icon" />
           {productData?.category[i18n.language]} /
         </button>
         <span>{productData?.title}</span>
