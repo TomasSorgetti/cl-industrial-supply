@@ -5,10 +5,11 @@
   --dark-green: #06665b;
   --medium-green: #00a99e;
   --light-green: #a0fff9;
-
+  --shadow-green: #5df0e659;
   --white: #ffffff;
 
   --error: #ff0000;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

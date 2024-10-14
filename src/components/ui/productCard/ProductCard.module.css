@@ -7,11 +7,10 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    /* padding: 20px; */
     padding: 20px 50px;
     border-bottom: 2px solid var(--medium-green);
-    cursor: pointer;
-    transition: all 0.5s ease;
+    /* cursor: pointer; */
+    transition: all 0.8s ease;
     margin-right: 50px;
     margin-top: 50px;
 }
@@ -21,7 +20,8 @@
     height: 60px;
 }
 .card_container:hover {
-    box-shadow: 0 13px 40px var(--medium-green);
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px -12px var(--shadow-green);
 }
 .card_container a{
     font-size: 1rem;
