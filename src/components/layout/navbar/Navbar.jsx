@@ -1,7 +1,7 @@
 import styles from "./Navbar.module.css";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { getAllCategories } from "../../../services/categories.service";
 import { ButtonLink } from "../../ui";
 import logo from "../../../assets/images/logo.svg";
@@ -27,6 +27,7 @@ export default function Navbar() {
   const handleClose = () => {
     setToggle(false);
   };
+
   // Scroll detection
   useEffect(() => {
     const handleScroll = () => {
@@ -63,19 +64,35 @@ export default function Navbar() {
 
         <ul className={styles.menu}>
           <li>
-            <Link onClick={handleClose} to="/">
+            <NavLink
+              className={({ isActive }) => (isActive ? styles.activeNav : "")}
+              onClick={handleClose}
+              to="/"
+            >
               {t("Navbar.home")}
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link onClick={handleClose} to="/about">
+            <NavLink
+              className={({ isActive }) => (isActive ? styles.activeNav : "")}
+              onClick={handleClose}
+              to="/about"
+            >
               {t("Navbar.about")}
-            </Link>
+            </NavLink>
           </li>
           <li className={styles.dropdown}>
-            <Link onClick={handleClose} to="/categories">
+            <NavLink
+              className={({ isActive }) =>
+                isActive || window.location.pathname.includes("products")
+                  ? styles.activeNav
+                  : ""
+              }
+              onClick={handleClose}
+              to="/categories"
+            >
               {t("Navbar.products")}
-            </Link>
+            </NavLink>
             <ul>
               {categoriesData?.map((category) => (
                 <li key={category.id}>
