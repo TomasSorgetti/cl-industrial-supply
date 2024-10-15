@@ -36,15 +36,13 @@
 }
 
 /* Active Navbar Page */
-.menu li .activeNav{
+.menu li .activeNav {
   color: var(--medium-green);
-  font-weight: 700;
   position: relative;
-  
 }
-.menu li .activeNav::before{
+.menu li .activeNav::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   height: 3px;
   background-color: var(--medium-green);
@@ -53,17 +51,17 @@
 }
 
 /* Hover Navbar Link */
-.menu li a:hover{
+.menu li a:hover {
   color: var(--medium-green);
   position: relative;
   transition: all 0.45s ease-in-out;
 }
 
 /* Dropdown */
-.dropdown{
-  position: relative;  
+.dropdown {
+  position: relative;
 }
-.dropdown ul{
+.dropdown ul {
   position: absolute;
   top: calc(100% + 1.5rem);
   left: 0;
@@ -75,17 +73,17 @@
   opacity: 0;
   visibility: hidden;
   list-style: none;
-  transition: all 0.45s ease-in-out;  
+  transition: all 0.45s ease-in-out;
 }
 
-.dropdown:hover ul{
+.dropdown:hover ul {
   opacity: 1;
   visibility: visible;
 }
-.dropdown ul li{
+.dropdown ul li {
   padding: 0.8rem 0;
 }
-.dropdown ul li:hover a{
+.dropdown ul li:hover a {
   color: var(--medium-green);
 }
 
@@ -108,13 +106,13 @@
 }
 
 /* Active Navbar */
-.header.active .menu{
+.header.active .menu {
   opacity: 0;
   visibility: hidden;
 }
 
 /* Hamburger */
-.hamburger{
+.hamburger {
   display: none;
   opacity: 0;
   visibility: hidden;
@@ -124,21 +122,21 @@
   gap: 9px;
   cursor: pointer;
 }
-.hamburger_bar{
+.hamburger_bar {
   width: 35px;
   height: 3px;
   background-color: var(--white);
   transition: all 0.3s ease;
   transform-origin: center;
 }
-.header.active .hamburger_bar:nth-child(1){
+.header.active .hamburger_bar:nth-child(1) {
   transform: translateY(12px) rotate(45deg);
 }
-.header.active .hamburger_bar:nth-child(2){
+.header.active .hamburger_bar:nth-child(2) {
   opacity: 0;
   visibility: hidden;
 }
-.header.active .hamburger_bar:nth-child(3){
+.header.active .hamburger_bar:nth-child(3) {
   transform: translateY(-12px) rotate(-45deg);
 }
 
@@ -149,10 +147,10 @@
   }
 }
 @media screen and (max-width: 900px) {
-  .header.scrolled.active{
+  .header.scrolled.active {
     opacity: 1;
   }
-  .menu{
+  .menu {
     height: 100vh;
     width: 100%;
     position: fixed;
@@ -172,19 +170,18 @@
     visibility: hidden;
     transition: all 0.45s ease-in-out;
   }
-  .header.active .menu .dropdown:hover ul{
+  .header.active .menu .dropdown:hover ul {
     opacity: 0;
-    visibility: hidden;      
+    visibility: hidden;
   }
-  .header.active .menu{
+  .header.active .menu {
     opacity: 1;
     visibility: visible;
     transform: translateX(0);
   }
   .hamburger {
-      display: flex;
-      opacity: 1;
-      visibility: visible;
-    }
-  
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+  }
 }
