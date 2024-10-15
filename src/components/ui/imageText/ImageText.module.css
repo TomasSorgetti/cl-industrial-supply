@@ -16,6 +16,9 @@
 }
 .image {
   transition: all 0.6s ease-in-out;
+  width: 50%;
+  height: 483px;
+  object-fit: cover;
 }
 @media screen and (max-width: 1180px) {
   .container {
@@ -28,8 +31,21 @@
     justify-content: center;
     text-align: center;
   }
+  
+}
+
+@media screen and (max-width: 1180px) {
+
   .image {
-    width: 50%;
-    margin: 4rem;
+    width: 100%;
+    padding: 4rem;
   }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  
 }

@@ -9,14 +9,21 @@
     "copyright": "Todos los Derechos Reservados"
   },
   "Home": {
-    "title": "Lorem ipsum dolor amet sageium tramous",
-    "description": "Lorem ipsum dolor amet sageium tramous Lorem ipsum dolor amet sageiu",
-    "aboutTitle": "Lorem ipsum dolor amet sageium tramous",
-    "aboutDescription": "Lorem ipsum dolor amet sageium tramous Lorem ipsum dolor amet sageium tramousLorem ipsum dolor amet sageium tramousLorem ipsum dolor amet sageium tramous",
-    "aboutButton": "LOREM IPSUM AMAT"
+    "title": "Soluciones de Izaje y Carga para la Industria",
+    "description": "Rápido, seguro, y confiable",
+    "aboutTitle": "Sobre nosotros",
+    "aboutDescription": "Nuestro compromiso con la calidad y la seguridad se refleja en cada uno de nuestros productos, diseñados para maximizar la eficiencia y la confiabilidad en tus operaciones. Combinamos innovación y conocimiento técnico para ofrecerte soluciones que superen tus expectativas. Confía en nosotros para elevar tu productividad y seguridad en cada proyecto.",
+    "aboutButton": "Conocer más",
+    "leftButton":"ver productos",
+    "rightButton":"Contactar"
   },
   "About": {
-    "title": "Pagina Sobre Nosotros"
+    "title": "Sobre nosotros",
+    "description": "La experiencia y la seguridad mejoran la eficiencia y la confiabilidad",
+    "firstHeading":"¿Quienes somos?",
+    "firstText":"En CL Industrial Supply, nos especializamos en soluciones de izaje y ganchos para el traslado de cargas. Nuestro compromiso con la seguridad y la calidad garantiza productos confiables que optimizan las operaciones de nuestros clientes. Con años de experiencia en el sector, nos esforzamos por ofrecer innovación y eficiencia en cada uno de nuestros servicios y productos.",
+    "secondHeading":"¿Por qué confiar en nosotros?",
+    "secondText":"En CL Industrial Supply, la confianza es nuestro pilar fundamental. Nos respalda una trayectoria de excelencia en soluciones de izaje y ganchos para el traslado de cargas. Nuestros productos son rigurosamente evaluados para cumplir con los más altos estándares de calidad y seguridad. Además, nuestro equipo de expertos está siempre dispuesto a ofrecer asesoramiento personalizado y soporte técnico. Con nosotros, cada operación se realiza con la garantía de confiabilidad, eficiencia y el respaldo de una empresa comprometida con la innovación y la satisfacción del cliente."
   },
   "Contact": {
     "title": "Contactanos",
@@ -35,7 +42,7 @@
     "title": "Pagina de Error"
   },
   "CallToAction": {
-    "title": "Lorem ipsum dolor amet sageium tramous",
+    "title": "¿Necesitas ayuda? Contáctanos hoy mismo y descubre cómo podemos impulsar tu negocio",
     "button": "Contactanos"
   },
   "ProductList": {
@@ -43,5 +50,10 @@
   },
   "Product":{
     "download": "Descargar"
+  },
+
+  "ProductsPage": {
+    "title": "Nuestros productos",
+    "description": "Descubre nuestros productos de izaje industrial eficientes y seguros"
   }
 }

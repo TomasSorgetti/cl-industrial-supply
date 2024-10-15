@@ -9,14 +9,21 @@
     "copyright": "All Rights Reserved"
   },
   "Home": {
-    "title": "Lorem ipsum dolor amet sageium tramous",
-    "description": "Lorem ipsum dolor amet sageium tramous Lorem ipsum dolor amet sageiu",
-    "aboutTitle": "Lorem ipsum dolor amet sageium tramous",
-    "aboutDescription": "Lorem ipsum dolor amet sageium tramous Lorem ipsum dolor amet sageium tramousLorem ipsum dolor amet sageium tramousLorem ipsum dolor amet sageium tramous",
-    "aboutButton": "LOREM IPSUM AMAT"
+    "title": "Industrial Lifting and Load Solutions",
+    "description": "Fast, Safe, and Reliable",
+    "aboutTitle": "About us",
+    "aboutDescription": "Our commitment to quality and safety is reflected in each of our products, designed to maximize efficiency and reliability in your operations. We combine innovation and technical expertise to provide solutions that exceed your expectations. Trust us to enhance your productivity and safety in every project.",
+    "aboutButton": "know more",
+    "leftButton":"view products",
+    "rightButton":"Contact us"
   },
   "About": {
-    "title": "About Page"
+    "title": "About us",
+    "description": "Experience and safety enhance efficiency and reliability",
+    "firstHeading":"Who are we?",
+    "firstText":"At CL Industrial Supply, we specialize in lifting solutions and hooks for load transportation. Our commitment to safety and quality ensures reliable products that optimize our clients' operations. With years of experience in the industry, we strive to deliver innovation and efficiency in all our services and products.",
+    "secondHeading":"Why trust us?",
+    "secondText":"At CL Industrial Supply, trust is our cornerstone. We are backed by a track record of excellence in lifting solutions and hooks for load transportation. Our products undergo rigorous evaluations to meet the highest standards of quality and safety. Additionally, our team of experts is always ready to provide personalized advice and technical support. With us, every operation is carried out with the assurance of reliability, efficiency, and the support of a company committed to innovation and customer satisfaction."
   },
   "Contact": {
     "title": "Contact Us",
@@ -35,7 +42,7 @@
     "title": "Error Page"
   },
   "CallToAction": {
-    "title": "Lorem ipsum dolor amet sageium tramous",
+    "title":"Need help? Contact us today and discover how we can boost your business",
     "button": "Contact Us"
   },
   "ProductList":{
@@ -43,5 +50,9 @@
   },
   "Product":{
     "download": "Download"
+  },
+  "ProductsPage": {
+    "title": "Our products",
+    "description": "Discover our efficient, safe industrial lifting products"
   }
 }

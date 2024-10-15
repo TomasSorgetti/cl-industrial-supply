@@ -14,10 +14,11 @@ export default function HomeBanner() {
           <p>{t("Home.description")}</p>
           <div className={styles.buttons}>
             <ButtonLink path="/contact" variant="secondary">
-              Contactar
+              {t("Home.rightButton")}
+              
             </ButtonLink>
-            <ButtonLink path="/contact" variant="primary">
-              Contactar
+            <ButtonLink path="/categories" variant="primary">
+            {t("Home.leftButton")}
             </ButtonLink>
           </div>
         </div>
