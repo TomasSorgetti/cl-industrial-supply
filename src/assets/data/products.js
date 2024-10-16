@@ -1,4 +1,43 @@
 import ganchosCategory from "../images/products/ganchos/ganchos_con_vastago.png";
+// CABLES DE ACERO
+import cablesDeAcero from "../images/products/cables_acero/cables_de_acero.png";
+import eslingasDeCableDeAcero from "../images/products/cables_acero/ESLINGAS DE CABLE DE ACERO.png";
+import grampasPrensacable from "../images/products/cables_acero/GRAMPAS PRENSACABLE.png";
+import guardacabos from "../images/products/cables_acero/GUARDACABOS.png";
+import tensores from "../images/products/cables_acero/TENSORES.png";
+import terminalesParaCableDeAcero from "../images/products/cables_acero/TERMINALES PARA CABLE DE ACERO.png";
+// GANCHOS
+import ganchosConTraba from "../images/products/ganchos/GANCHOS CON TRABA.png";
+import ganchosDeSeguridad from "../images/products/ganchos/GANCHOS DE SEGURIDAD.png";
+import ganchosEspeciales from "../images/products/ganchos/GANCHOS ESPECIALES.png";
+import ganchosParaCableDeAcero from "../images/products/ganchos/GANCHOS PARA CABLE DE ACERO.png";
+import ganchosParaCadena from "../images/products/ganchos/GANCHOS PARA CADENA.png";
+import ganchosConVastago from "../images/products/ganchos/ganchos_con_vastago.png";
+// CADENAS
+import cadenasDeGrado from "../images/products/cadenas/cadenas_de_grado_80_y_100.png";
+import conectoresParaCadena from "../images/products/cadenas/CONECTORES PARA CADENA.png";
+import eslabonMaestro from "../images/products/cadenas/ESLABON MAESTRO.png";
+import eslingasDeCadena from "../images/products/cadenas/ESLINGAS DE CADENA.png";
+// FIBRA SINTETICA
+import accesoriosParaFaja from "../images/products/fibra_sintetica/accesorios_para_faja.png";
+import eslingasDePoliester from "../images/products/fibra_sintetica/ESLINGAS DE POLIESTER.png";
+// CÁNCAMOS
+import cancamoYGanchosSoldable from "../images/products/cancamos/CANCAMO Y GANCHO SOLDABLE.png"
+import cancamoFijo from "../images/products/cancamos/CANCAMOS FIJOS.png"
+import cancamosGiratorios from "../images/products/cancamos/cancamos_giratorios.png"
+// GRILLETES
+import grilletesCorazonConTuercaYChaveta from "../images/products/grilletes/GRILLETES CORAZON CON TUERCA Y CHAVETA.png"
+import grilletesRectoConPernoRoscado from "../images/products/grilletes/GRILLETES RECTO CON PERNO ROSCADO.png"
+import grilletesRectoConTuercaYChaveta from "../images/products/grilletes/GRILLETES RECTO CON TUERCA Y CHAVETA.png"
+import grilletesCorazonConPernoRoscado from "../images/products/grilletes/grilletes_corazon_con_perno_roscado.png"
+// EQUIPOS DE ELEVACIÓN
+import aparejosElectricos from "../images/products/equipos_elevacion/APAREJOS_ EQUIPOS ELÉCTRICOS.png"
+import aparejosManuales from "../images/products/equipos_elevacion/APAREJOS_ EQUIPOS MANUALES.png"
+import atacargas from "../images/products/equipos_elevacion/ATACARGAS.png"
+import carros from "../images/products/equipos_elevacion/carros_de_translacion.png"
+import garras from "../images/products/equipos_elevacion/GARRAS PARA CHAPA.png"
+
+
 
 export const products = [
   // GANCHOS
@@ -16,7 +55,7 @@ export const products = [
       es: "Ganchos",
       en: "Hooks",
     },
-    image: ganchosCategory,
+    image: ganchosConTraba,
   },
   {
     id: 2,
@@ -32,7 +71,7 @@ export const products = [
       es: "Ganchos",
       en: "Hooks",
     },
-    image: ganchosCategory,
+    image: ganchosConVastago,
   },
   {
     id: 3,
@@ -48,7 +87,7 @@ export const products = [
       es: "Ganchos",
       en: "Hooks",
     },
-    image: ganchosCategory,
+    image: ganchosDeSeguridad,
   },
   {
     id: 4,
@@ -64,7 +103,7 @@ export const products = [
       es: "Cables de Acero",
       en: "Steel Cables",
     },
-    image: ganchosCategory,
+    image: ganchosEspeciales,
   },
   {
     id: 5,
@@ -80,7 +119,7 @@ export const products = [
       es: "Ganchos",
       en: "Hooks",
     },
-    image: ganchosCategory,
+    image: ganchosParaCableDeAcero,
   },
   {
     id: 6,
@@ -96,10 +135,10 @@ export const products = [
       es: "Cables de Acero",
       en: "Steel Cables",
     },
-    image: ganchosCategory,
+    image: ganchosParaCadena,
   },
 
-  // Cables de acero
+  // CABLES DE ACERO
 
   {
     id: 7,
@@ -115,7 +154,7 @@ export const products = [
       es: "Cables de Acero",
       en: "Steel Cables",
     },
-    image: ganchosCategory,
+    image: cablesDeAcero,
   },
   {
     id: 8,
@@ -131,7 +170,7 @@ export const products = [
       es: "Cables de Acero",
       en: "Steel Cables",
     },
-    image: ganchosCategory,
+    image: eslingasDeCableDeAcero,
   },
   {
     id: 9,
@@ -147,7 +186,7 @@ export const products = [
       es: "Cables de Acero",
       en: "Steel Cables",
     },
-    image: ganchosCategory,
+    image: grampasPrensacable,
   },
   {
     id: 10,
@@ -163,7 +202,7 @@ export const products = [
       es: "Cables de Acero",
       en: "Steel Cables",
     },
-    image: ganchosCategory,
+    image: guardacabos,
   },
   {
     id: 11,
@@ -179,7 +218,7 @@ export const products = [
       es: "Cables de Acero",
       en: "Steel Cables",
     },
-    image: ganchosCategory,
+    image: tensores,
   },
   {
     id: 12,
@@ -195,10 +234,10 @@ export const products = [
       es: "Cables de Acero",
       en: "Steel Cables",
     },
-    image: ganchosCategory,
+    image: terminalesParaCableDeAcero,
   },
 
-  // Cadenas de Alta Resistencia
+  // CADENAS DE ALTA RESISTENCIA
 
   {
     id: 13,
@@ -214,7 +253,7 @@ export const products = [
       es: "Cadenas de Alta Resistencia",
       en: "High Resistance Chains",
     },
-    image: ganchosCategory,
+    image: cadenasDeGrado,
   },
   {
     id: 14,
@@ -230,7 +269,7 @@ export const products = [
       es: "Cadenas de Alta Resistencia",
       en: "High Resistance Chains",
     },
-    image: ganchosCategory,
+    image: conectoresParaCadena,
   },
   {
     id: 15,
@@ -246,7 +285,7 @@ export const products = [
       es: "Cadenas de Alta Resistencia",
       en: "High Resistance Chains",
     },
-    image: ganchosCategory,
+    image: eslabonMaestro,
   },
   {
     id: 16,
@@ -262,10 +301,10 @@ export const products = [
       es: "Cadenas de Alta Resistencia",
       en: "High Resistance Chains",
     },
-    image: ganchosCategory,
+    image: eslingasDeCadena,
   },
 
-  // Fibra Sintética
+  // FIBRA SINTETICA
   {
     id: 17,
     titles: {
@@ -280,7 +319,7 @@ export const products = [
       es: "Fibra Sintética",
       en: "Synthetic Fiber",
     },
-    image: ganchosCategory,
+    image: accesoriosParaFaja,
   },
   {
     id: 18,
@@ -296,10 +335,10 @@ export const products = [
       es: "Fibra Sintética",
       en: "Synthetic Fiber",
     },
-    image: ganchosCategory,
+    image: eslingasDePoliester,
   },
 
-  // Cáncamos
+  // CÁNCAMOS
   {
     id: 19,
     titles: {
@@ -314,7 +353,7 @@ export const products = [
       es: "Cáncamos",
       en: "Eyebolts",
     },
-    image: ganchosCategory,
+    image: cancamosGiratorios,
   },
   {
     id: 20,
@@ -330,7 +369,7 @@ export const products = [
       es: "Cáncamos",
       en: "Eyebolts",
     },
-    image: ganchosCategory,
+    image: cancamoFijo,
   },
   {
     id: 21,
@@ -346,10 +385,10 @@ export const products = [
       es: "Cáncamos",
       en: "Eyebolts",
     },
-    image: ganchosCategory,
+    image: cancamoYGanchosSoldable,
   },
 
-  // Grilletes
+  // GRILLETES
   {
     id: 22,
     titles: {
@@ -364,7 +403,7 @@ export const products = [
       es: "Grilletes",
       en: "Shackles",
     },
-    image: ganchosCategory,
+    image: grilletesCorazonConPernoRoscado,
   },
   {
     id: 23,
@@ -380,7 +419,7 @@ export const products = [
       es: "Grilletes",
       en: "Shackles",
     },
-    image: ganchosCategory,
+    image: grilletesCorazonConTuercaYChaveta,
   },
   {
     id: 24,
@@ -396,7 +435,7 @@ export const products = [
       es: "Grilletes",
       en: "Shackles",
     },
-    image: ganchosCategory,
+    image: grilletesRectoConPernoRoscado,
   },
   {
     id: 25,
@@ -412,10 +451,10 @@ export const products = [
       es: "Grilletes",
       en: "Shackles",
     },
-    image: ganchosCategory,
+    image: grilletesRectoConTuercaYChaveta,
   },
 
-  // Equipos de Elevación
+  // EQUIPOS DE ELEVACIÓN
   {
     id: 26,
     titles: {
@@ -430,7 +469,7 @@ export const products = [
       es: "Equipos de Elevación",
       en: "Lifting Equipment",
     },
-    image: ganchosCategory,
+    image: atacargas,
   },
   {
     id: 27,
@@ -446,7 +485,7 @@ export const products = [
       es: "Equipos de Elevación",
       en: "Lifting Equipment",
     },
-    image: ganchosCategory,
+    image: carros,
   },
   {
     id: 28,
@@ -462,7 +501,7 @@ export const products = [
       es: "Equipos de Elevación",
       en: "Lifting Equipment",
     },
-    image: ganchosCategory,
+    image: aparejosElectricos,
   },
   {
     id: 29,
@@ -478,7 +517,7 @@ export const products = [
       es: "Equipos de Elevación",
       en: "Lifting Equipment",
     },
-    image: ganchosCategory,
+    image: aparejosManuales,
   },
   {
     id: 30,
@@ -494,6 +533,6 @@ export const products = [
       es: "Equipos de Elevación",
       en: "Lifting Equipment",
     },
-    image: ganchosCategory,
+    image: garras,
   },
 ];
