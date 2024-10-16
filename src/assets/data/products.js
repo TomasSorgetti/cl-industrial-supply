@@ -1,4 +1,4 @@
-import ganchosCategory from "../images/categories/gancho_category.svg";
+import ganchosCategory from "../images/products/ganchos/ganchos_con_vastago.png";
 
 export const products = [
   // GANCHOS
@@ -201,7 +201,7 @@ export const products = [
   // Cadenas de Alta Resistencia
 
   {
-    id: 12,
+    id: 13,
     titles: {
       es: "Cadenas grado 80 y 100",
       en: "Chains grade 80 and 100",
@@ -217,7 +217,7 @@ export const products = [
     image: ganchosCategory,
   },
   {
-    id: 13,
+    id: 14,
     titles: {
       es: "Conectores para Cadena",
       en: "Chain Connectors",
@@ -233,7 +233,7 @@ export const products = [
     image: ganchosCategory,
   },
   {
-    id: 14,
+    id: 15,
     titles: {
       es: "Eslabón Maestro",
       en: "Master Link",
@@ -249,7 +249,7 @@ export const products = [
     image: ganchosCategory,
   },
   {
-    id: 15,
+    id: 16,
     titles: {
       es: "Eslingas de Cadena",
       en: "Chain Slings",
@@ -267,7 +267,7 @@ export const products = [
 
   // Fibra Sintética
   {
-    id: 16,
+    id: 17,
     titles: {
       es: "Accesorios para Faja",
       en: "Girdle Accessories",
@@ -283,7 +283,7 @@ export const products = [
     image: ganchosCategory,
   },
   {
-    id: 17,
+    id: 18,
     titles: {
       es: "Eslingas de Poliester",
       en: "Polyester Slings",
@@ -301,7 +301,7 @@ export const products = [
 
   // Cáncamos
   {
-    id: 18,
+    id: 19,
     titles: {
       es: "Cáncamos Giratorios",
       en: "Swivel Eyebolts",
@@ -317,7 +317,7 @@ export const products = [
     image: ganchosCategory,
   },
   {
-    id: 19,
+    id: 20,
     titles: {
       es: "Cáncamos Fijos",
       en: "Fixed Eyebolts",
@@ -333,7 +333,7 @@ export const products = [
     image: ganchosCategory,
   },
   {
-    id: 20,
+    id: 21,
     titles: {
       es: "Cáncamo y Gancho Soldable",
       en: "Eyebolt and Weldable Hook",
@@ -351,7 +351,7 @@ export const products = [
 
   // Grilletes
   {
-    id: 21,
+    id: 22,
     titles: {
       es: "Grilletes Corazón con Perno Roscado",
       en: "Heart Shackles with Threaded Bolt",
@@ -367,7 +367,7 @@ export const products = [
     image: ganchosCategory,
   },
   {
-    id: 22,
+    id: 23,
     titles: {
       es: "Grilletes Corazón con Tuerca y Chaveta",
       en: "Heart Shackles with Nut and Cotter Pin",
@@ -383,7 +383,7 @@ export const products = [
     image: ganchosCategory,
   },
   {
-    id: 23,
+    id: 24,
     titles: {
       es: "Grilletes Recto con Perno Roscado",
       en: "Straight Shackles with Threaded Bolt",
@@ -399,7 +399,7 @@ export const products = [
     image: ganchosCategory,
   },
   {
-    id: 24,
+    id: 25,
     titles: {
       es: "Grilletes Recto con Tuerca y Chaveta",
       en: "Straight Shackles with Nut and Cotter Pin",
@@ -417,7 +417,7 @@ export const products = [
 
   // Equipos de Elevación
   {
-    id: 25,
+    id: 26,
     titles: {
       es: "Atacargas",
       en: "Load Binder",
@@ -433,7 +433,7 @@ export const products = [
     image: ganchosCategory,
   },
   {
-    id: 26,
+    id: 27,
     titles: {
       es: "Carros de Traslación",
       en: "Transfer Carts",
@@ -449,7 +449,7 @@ export const products = [
     image: ganchosCategory,
   },
   {
-    id: 27,
+    id: 28,
     titles: {
       es: "Aparejos: Equipos Eléctricos",
       en: "Rigging: Electrical Equipment",
@@ -465,7 +465,7 @@ export const products = [
     image: ganchosCategory,
   },
   {
-    id: 28,
+    id: 29,
     titles: {
       es: "Aparejos: Equipos Manuales",
       en: "Rigging: Manual Rigs",
@@ -481,7 +481,7 @@ export const products = [
     image: ganchosCategory,
   },
   {
-    id: 29,
+    id: 30,
     titles: {
       es: "Garras para Chapa",
       en: "Sheet Metal Grippers",

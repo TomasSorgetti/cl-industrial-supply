@@ -9,10 +9,12 @@ export default function ProductList({ category }) {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    const data = getProductsByCategory(category, i18n.language);
+    if (category) {
+      const data = getProductsByCategory(category, i18n.language);
 
-    // TODO => manage errors
-    setProducts(data);
+      // TODO => manage errors
+      setProducts(data);
+    }
   }, [i18n.language, category]);
 
   return (

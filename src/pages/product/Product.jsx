@@ -10,7 +10,7 @@ export default function ProductPage() {
   const navigate = useNavigate();
   const { t, i18n } = useTranslation();
   const params = useParams();
-  const [productData, setProductData] = useState(null);
+  const [productData, setProductData] = useState({});
   const [error, setError] = useState(false);
 
   useEffect(() => {
@@ -39,7 +39,7 @@ export default function ProductPage() {
       <div className={styles.breadcrumbs}>
         <button onClick={() => navigate(-1)} className={styles.return}>
           <img src={categoryArrow} alt="arrow icon" />
-          {productData?.category[i18n.language]} /
+          {productData?.category} /
         </button>
         <span>{productData?.title}</span>
       </div>

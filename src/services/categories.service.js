@@ -1,9 +1,9 @@
 import { categories } from "../assets/data/categories";
 
-
 export const getCategoryById = (id, lang) => {
-  const category = categories.find((category) => category.id === Number(id));
   const normalizedLang = lang.slice(0, 2);
+  const category = categories.find((category) => category.id === Number(id));
+
   if (category) {
     return {
       ...category,

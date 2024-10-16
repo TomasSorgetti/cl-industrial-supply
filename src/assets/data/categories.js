@@ -1,10 +1,10 @@
-import ganchosCategory from "../images/categories/gancho_category.svg";
-import cadenaCategory from "../images/categories/cadena_category.svg";
-import cuerdaDeAcero from "../images/categories/cuerda_de_acero_category.svg";
-import atacarga from "../images/categories/atacarga_category.svg";
-import cancamo from "../images/categories/cancamo_category.svg";
-import ganchobis from "../images/categories/ganchobis_category.svg";
-import grillete from "../images/categories/grillete_category.svg";
+import cuerdaDeAcero from "../images/products/cables_acero/cables_de_acero.png";
+import cadenaCategory from "../images/products/cadenas/cadenas_de_grado_80_y_100.png";
+import fibraSintetica from "../images/products/fibra_sintetica/accesorios_para_faja.png";
+import ganchosCategory from "../images/products/ganchos/ganchos_con_vastago.png";
+import grillete from "../images/products/grilletes/grilletes_corazon_con_perno_roscado.png";
+import elevacion from "../images/products/equipos_elevacion/carros_de_translacion.png";
+import cancamo from "../images/products/cancamos/cancamos_giratorios.png";
 
 export const categories = [
   {
@@ -53,7 +53,7 @@ export const categories = [
       es: "Eslingas de Fibra Sintética – Codificación por color y líneas en tejido – Eslingas Planas de poliéster de alta tenacidad – Sin Fin – Tubulares Amorfas de 1 a 50 Ton – Accesorios para fibra sintética (Conectores, Ganchos, Protectores).",
       en: "Synthetic Fiber Slings – Coding by color and lines in fabric – High tenacity polyester Flat Slings – Endless – Amorphous Tubular from 1 to 50 Ton – Accessories for synthetic fiber (Connectors, Hooks, Protectors).",
     },
-    image: ganchobis,
+    image: fibraSintetica,
   },
   {
     id: 5,
@@ -89,7 +89,6 @@ export const categories = [
       es: "Aparejo Manual a Cadena – Aparejo Manual a Palanca – Aparejo Eléctrico – Malacate Manual – Malacate Eléctrico – Garras para izaje de Chapa – Atacargas a Crique de cadena y de cinta.",
       en: "Manual Chain Hoist – Manual Lever Hoist – Electric Hoist – Manual Winch – Electric Winch – Claws for Sheet Metal Lifting – Chain and Tape Ratchets.",
     },
-    image: atacarga,
+    image: elevacion,
   },
- 
 ];
