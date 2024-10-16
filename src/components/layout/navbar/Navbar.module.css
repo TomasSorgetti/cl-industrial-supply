@@ -51,7 +51,7 @@
 }
 
 /* Hover Navbar Link */
-.menu li a:hover {
+.menu li.navLink a:hover, .menu li.dropdown a:hover {
   color: var(--medium-green);
   position: relative;
   transition: all 0.45s ease-in-out;

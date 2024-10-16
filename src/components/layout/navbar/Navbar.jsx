@@ -63,7 +63,7 @@ export default function Navbar() {
         </button>
 
         <ul className={styles.menu}>
-          <li>
+          <li className={styles.navLink}>
             <NavLink
               className={({ isActive }) => (isActive ? styles.activeNav : "")}
               onClick={handleClose}
@@ -72,7 +72,7 @@ export default function Navbar() {
               {t("Navbar.home")}
             </NavLink>
           </li>
-          <li>
+          <li className={styles.navLink}>
             <NavLink
               className={({ isActive }) => (isActive ? styles.activeNav : "")}
               onClick={handleClose}
