@@ -3,17 +3,13 @@
     background-size: cover;
     background-position: center bottom;
     display: flex;
+    gap: 2rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-bottom: 100px;
     text-align: center;
 }
-
-.main_container h1{
-    margin-bottom: 20px;
-}
-
 .divider {
     height: 5px;
     background-color: var(--medium-green);
