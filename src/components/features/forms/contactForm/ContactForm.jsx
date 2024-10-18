@@ -26,6 +26,7 @@ export default function ContactForm() {
     e.preventDefault();
     console.log(formData);
   };
+  
   return (
     <form className={styles.form} onSubmit={handleSubmit}>
       <FormField

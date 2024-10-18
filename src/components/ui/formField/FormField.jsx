@@ -27,6 +27,7 @@ export default function FormField({
       ) : (
         <input {...commonProps} type={type} />
       )}
+      {error && <p className={styles.errorText}>{error}</p>}
     </div>
   );
 }

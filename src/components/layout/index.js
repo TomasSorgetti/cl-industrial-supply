@@ -4,3 +4,4 @@ export { default as HomeBanner } from "./home/banner/HomeBanner.jsx";
 export { default as CallToAction } from "./cta/CallToAction.jsx";
 export { default as SecondaryBanner } from "./secondaryBanner/SecondaryBanner.jsx";
 export { default as PageWrapper } from "./pageWrapper/PageWrapper.jsx";
+export { default as ScrollToTop } from "./scrollToTop/ScrollToTop.jsx";

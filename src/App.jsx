@@ -1,7 +1,7 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 
-import { Navbar, Footer, PageWrapper } from "./components/layout";
+import { Navbar, Footer, PageWrapper, ScrollToTop } from "./components/layout";
 import {
   HomePage,
   ContactPage,
@@ -15,6 +15,7 @@ import {
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Navbar />
 
       <Routes>
