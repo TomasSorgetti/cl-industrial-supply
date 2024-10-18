@@ -1,4 +1,4 @@
-import ganchosCategory from "../images/products/ganchos/ganchos_con_vastago.png";
+import pdfPrueba from "../pdf/home.pdf";
 // CABLES DE ACERO
 import cablesDeAcero from "../images/products/cables_acero/cables_de_acero.png";
 import eslingasDeCableDeAcero from "../images/products/cables_acero/ESLINGAS DE CABLE DE ACERO.png";
@@ -22,22 +22,20 @@ import eslingasDeCadena from "../images/products/cadenas/ESLINGAS DE CADENA.png"
 import accesoriosParaFaja from "../images/products/fibra_sintetica/accesorios_para_faja.png";
 import eslingasDePoliester from "../images/products/fibra_sintetica/ESLINGAS DE POLIESTER.png";
 // CÁNCAMOS
-import cancamoYGanchosSoldable from "../images/products/cancamos/CANCAMO Y GANCHO SOLDABLE.png"
-import cancamoFijo from "../images/products/cancamos/CANCAMOS FIJOS.png"
-import cancamosGiratorios from "../images/products/cancamos/cancamos_giratorios.png"
+import cancamoYGanchosSoldable from "../images/products/cancamos/CANCAMO Y GANCHO SOLDABLE.png";
+import cancamoFijo from "../images/products/cancamos/CANCAMOS FIJOS.png";
+import cancamosGiratorios from "../images/products/cancamos/cancamos_giratorios.png";
 // GRILLETES
-import grilletesCorazonConTuercaYChaveta from "../images/products/grilletes/GRILLETES CORAZON CON TUERCA Y CHAVETA.png"
-import grilletesRectoConPernoRoscado from "../images/products/grilletes/GRILLETES RECTO CON PERNO ROSCADO.png"
-import grilletesRectoConTuercaYChaveta from "../images/products/grilletes/GRILLETES RECTO CON TUERCA Y CHAVETA.png"
-import grilletesCorazonConPernoRoscado from "../images/products/grilletes/grilletes_corazon_con_perno_roscado.png"
+import grilletesCorazonConTuercaYChaveta from "../images/products/grilletes/GRILLETES CORAZON CON TUERCA Y CHAVETA.png";
+import grilletesRectoConPernoRoscado from "../images/products/grilletes/GRILLETES RECTO CON PERNO ROSCADO.png";
+import grilletesRectoConTuercaYChaveta from "../images/products/grilletes/GRILLETES RECTO CON TUERCA Y CHAVETA.png";
+import grilletesCorazonConPernoRoscado from "../images/products/grilletes/grilletes_corazon_con_perno_roscado.png";
 // EQUIPOS DE ELEVACIÓN
-import aparejosElectricos from "../images/products/equipos_elevacion/APAREJOS_ EQUIPOS ELÉCTRICOS.png"
-import aparejosManuales from "../images/products/equipos_elevacion/APAREJOS_ EQUIPOS MANUALES.png"
-import atacargas from "../images/products/equipos_elevacion/ATACARGAS.png"
-import carros from "../images/products/equipos_elevacion/carros_de_translacion.png"
-import garras from "../images/products/equipos_elevacion/GARRAS PARA CHAPA.png"
-
-
+import aparejosElectricos from "../images/products/equipos_elevacion/APAREJOS_ EQUIPOS ELÉCTRICOS.png";
+import aparejosManuales from "../images/products/equipos_elevacion/APAREJOS_ EQUIPOS MANUALES.png";
+import atacargas from "../images/products/equipos_elevacion/ATACARGAS.png";
+import carros from "../images/products/equipos_elevacion/carros_de_translacion.png";
+import garras from "../images/products/equipos_elevacion/GARRAS PARA CHAPA.png";
 
 export const products = [
   // GANCHOS
@@ -56,6 +54,7 @@ export const products = [
       en: "Hooks",
     },
     image: ganchosConTraba,
+    pdf: pdfPrueba,
   },
   {
     id: 2,
@@ -72,6 +71,7 @@ export const products = [
       en: "Hooks",
     },
     image: ganchosConVastago,
+    pdf: pdfPrueba,
   },
   {
     id: 3,
@@ -88,6 +88,7 @@ export const products = [
       en: "Hooks",
     },
     image: ganchosDeSeguridad,
+    pdf: pdfPrueba,
   },
   {
     id: 4,
@@ -104,6 +105,7 @@ export const products = [
       en: "Steel Cables",
     },
     image: ganchosEspeciales,
+    pdf: pdfPrueba,
   },
   {
     id: 5,
@@ -120,6 +122,7 @@ export const products = [
       en: "Hooks",
     },
     image: ganchosParaCableDeAcero,
+    pdf: pdfPrueba,
   },
   {
     id: 6,
@@ -136,6 +139,7 @@ export const products = [
       en: "Steel Cables",
     },
     image: ganchosParaCadena,
+    pdf: pdfPrueba,
   },
 
   // CABLES DE ACERO
@@ -155,6 +159,7 @@ export const products = [
       en: "Steel Cables",
     },
     image: cablesDeAcero,
+    pdf: pdfPrueba,
   },
   {
     id: 8,
@@ -171,6 +176,7 @@ export const products = [
       en: "Steel Cables",
     },
     image: eslingasDeCableDeAcero,
+    pdf: pdfPrueba,
   },
   {
     id: 9,
@@ -187,6 +193,7 @@ export const products = [
       en: "Steel Cables",
     },
     image: grampasPrensacable,
+    pdf: pdfPrueba,
   },
   {
     id: 10,
@@ -203,6 +210,7 @@ export const products = [
       en: "Steel Cables",
     },
     image: guardacabos,
+    pdf: pdfPrueba,
   },
   {
     id: 11,
@@ -219,6 +227,7 @@ export const products = [
       en: "Steel Cables",
     },
     image: tensores,
+    pdf: pdfPrueba,
   },
   {
     id: 12,
@@ -235,6 +244,7 @@ export const products = [
       en: "Steel Cables",
     },
     image: terminalesParaCableDeAcero,
+    pdf: pdfPrueba,
   },
 
   // CADENAS DE ALTA RESISTENCIA
@@ -254,6 +264,7 @@ export const products = [
       en: "High Resistance Chains",
     },
     image: cadenasDeGrado,
+    pdf: pdfPrueba,
   },
   {
     id: 14,
@@ -270,6 +281,7 @@ export const products = [
       en: "High Resistance Chains",
     },
     image: conectoresParaCadena,
+    pdf: pdfPrueba,
   },
   {
     id: 15,
@@ -286,6 +298,7 @@ export const products = [
       en: "High Resistance Chains",
     },
     image: eslabonMaestro,
+    pdf: pdfPrueba,
   },
   {
     id: 16,
@@ -302,6 +315,7 @@ export const products = [
       en: "High Resistance Chains",
     },
     image: eslingasDeCadena,
+    pdf: pdfPrueba,
   },
 
   // FIBRA SINTETICA
@@ -320,6 +334,7 @@ export const products = [
       en: "Synthetic Fiber",
     },
     image: accesoriosParaFaja,
+    pdf: pdfPrueba,
   },
   {
     id: 18,
@@ -336,6 +351,7 @@ export const products = [
       en: "Synthetic Fiber",
     },
     image: eslingasDePoliester,
+    pdf: pdfPrueba,
   },
 
   // CÁNCAMOS
@@ -354,6 +370,7 @@ export const products = [
       en: "Eyebolts",
     },
     image: cancamosGiratorios,
+    pdf: pdfPrueba,
   },
   {
     id: 20,
@@ -370,6 +387,7 @@ export const products = [
       en: "Eyebolts",
     },
     image: cancamoFijo,
+    pdf: pdfPrueba,
   },
   {
     id: 21,
@@ -386,6 +404,7 @@ export const products = [
       en: "Eyebolts",
     },
     image: cancamoYGanchosSoldable,
+    pdf: pdfPrueba,
   },
 
   // GRILLETES
@@ -404,6 +423,7 @@ export const products = [
       en: "Shackles",
     },
     image: grilletesCorazonConPernoRoscado,
+    pdf: pdfPrueba,
   },
   {
     id: 23,
@@ -420,6 +440,7 @@ export const products = [
       en: "Shackles",
     },
     image: grilletesCorazonConTuercaYChaveta,
+    pdf: pdfPrueba,
   },
   {
     id: 24,
@@ -436,6 +457,7 @@ export const products = [
       en: "Shackles",
     },
     image: grilletesRectoConPernoRoscado,
+    pdf: pdfPrueba,
   },
   {
     id: 25,
@@ -452,6 +474,7 @@ export const products = [
       en: "Shackles",
     },
     image: grilletesRectoConTuercaYChaveta,
+    pdf: pdfPrueba,
   },
 
   // EQUIPOS DE ELEVACIÓN
@@ -470,6 +493,7 @@ export const products = [
       en: "Lifting Equipment",
     },
     image: atacargas,
+    pdf: pdfPrueba,
   },
   {
     id: 27,
@@ -486,6 +510,7 @@ export const products = [
       en: "Lifting Equipment",
     },
     image: carros,
+    pdf: pdfPrueba,
   },
   {
     id: 28,
@@ -502,6 +527,7 @@ export const products = [
       en: "Lifting Equipment",
     },
     image: aparejosElectricos,
+    pdf: pdfPrueba,
   },
   {
     id: 29,
@@ -518,6 +544,7 @@ export const products = [
       en: "Lifting Equipment",
     },
     image: aparejosManuales,
+    pdf: pdfPrueba,
   },
   {
     id: 30,
@@ -534,5 +561,6 @@ export const products = [
       en: "Lifting Equipment",
     },
     image: garras,
+    pdf: pdfPrueba,
   },
 ];

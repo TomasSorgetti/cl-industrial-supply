@@ -44,20 +44,29 @@ export default function ProductPage() {
         <span>{productData?.title}</span>
       </div>
       {productData && (
-        <div className={styles.productContainer}>
-          <img src={productData.image} alt={productData.title} />
-          <div className={styles.productInfo}>
-            <h1>{productData.title}</h1>
-            <p>{productData.description}</p>
-            <a
-              href={`/src/assets/pdf/${productData.id}.pdf`}
-              download
-              className={styles.download}
-            >
-              {t("Product.download")}
-            </a>
+        <>
+          <div className={styles.productContainer}>
+            <img src={productData.image} alt={productData.title} />
+            <div className={styles.productInfo}>
+              <h1>{productData.title}</h1>
+              <p>{productData.description}</p>
+              <a
+                href={`/src/assets/pdf/${productData.id}.pdf`}
+                download
+                className={styles.download}
+              >
+                {t("Product.download")}
+              </a>
+            </div>
           </div>
-        </div>
+          <iframe
+            className={styles.pdf}
+            src={productData.pdf}
+            title={`${productData.title} PDF Preview`}
+            width="100%"
+            height={"1000px"}
+          ></iframe>
+        </>
       )}
     </main>
   );
