@@ -8,7 +8,9 @@
   --shadow-green: #5df0e659;
   --white: #ffffff;
 
-  --error: #ff0000;
+  --error: #ef5858;
+  --success: #4caf50;
+  --warning: #f0c725;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

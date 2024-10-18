@@ -28,15 +28,22 @@
   "Contact": {
     "title": "Contact Us",
     "description": "Lorem ipsum dolor amet sageium tramous Lorem ipsum dolor amet .",
-    "formNameLabel": "Name:",
+    "formNameLabel": "Name",
     "formNameInput": "John Doe",
-    "formPhoneLabel": "Celphone:",
+    "formPhoneLabel": "Celphone",
     "formPhoneInput": "XX XXXX XXXX",
-    "formEmailLabel": "Email:",
+    "formEmailLabel": "Email",
     "formEmailInput": "johndoe@mail.com",
-    "formMessageLabel": "Menssage:",
+    "formMessageLabel": "Menssage",
     "formMessageInput": "Write your message...",
     "formButton": "Send message"
+  },
+  "ValidationContact":{
+    "required": "is required",
+    "invalid": "is invalid",
+    "nameLength": "Name must be at least 3 characters",
+    "phoneInvalid": "Invalid phone number",
+    "messageLength": "Message must be at least 30 characters"
   },
   "Error404": {
     "title": "Error Page"

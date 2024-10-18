@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 1rem;
+  position: relative;
 }
 .container label {
   font-weight: 700;
@@ -28,4 +29,12 @@
 .container.error input,
 .container.error textarea {
   border-bottom: 2px solid var(--error);
+}
+
+.errorText{
+  position: absolute;
+  bottom: -2rem;
+  left: 0;
+  color: var(--error);
+  font-size: 0.85rem;
 }

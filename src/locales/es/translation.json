@@ -28,15 +28,22 @@
   "Contact": {
     "title": "Contactanos",
     "description": "Lorem ipsum dolor amet sageium tramous Lorem ipsum dolor amet .",
-    "formNameLabel": "Nombre:",
+    "formNameLabel": "Nombre",
     "formNameInput": "Juan Perez",
-    "formPhoneLabel": "Teléfono:",
+    "formPhoneLabel": "Teléfono",
     "formPhoneInput": "XX XXXX XXXX",
-    "formEmailLabel": "Email:",
+    "formEmailLabel": "Email",
     "formEmailInput": "juanperez@mail.com",
-    "formMessageLabel": "Mensaje:",
+    "formMessageLabel": "Mensaje",
     "formMessageInput": "Escribe tu mensaje...",
     "formButton": "Enviar mensaje"
+  },
+  "ValidationContact":{
+    "required": "es requerido",
+    "invalid": "es invalido",
+    "nameLength": "El nombre debe ser mayor a 3 caracteres",
+    "phoneInvalid": "Numero de telefono invalido",
+    "messageLength": "El mensaje debe ser mayor a 30 caracteres"
   },
   "Error404": {
     "title": "Pagina de Error"

@@ -25,7 +25,7 @@ export default function FormField({
 
   return (
     <div className={`${styles.container} ${error ? styles.error : ""}`}>
-      <label htmlFor={id}>{label}</label>
+      <label htmlFor={id}>{label}:</label>
       {textarea ? (
         <textarea {...commonProps} />
       ) : (
