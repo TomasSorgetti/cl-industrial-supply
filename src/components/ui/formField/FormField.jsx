@@ -1,6 +1,7 @@
 import styles from "./FormField.module.css";
 
 export default function FormField({
+  id,
   label,
   name,
   type = "text",
@@ -10,18 +11,21 @@ export default function FormField({
   required = false,
   textarea = false,
   error = false,
+  autoComplete = "on",
 }) {
   const commonProps = {
+    id,
     name,
     placeholder,
     value,
     onChange: handleChange,
     required,
+    autoComplete,
   };
 
   return (
     <div className={`${styles.container} ${error ? styles.error : ""}`}>
-      <label htmlFor={name}>{label}</label>
+      <label htmlFor={id}>{label}</label>
       {textarea ? (
         <textarea {...commonProps} />
       ) : (

@@ -6,3 +6,4 @@ export { default as FormField } from "./formField/FormField.jsx";
 export { default as FormButton } from "./buttons/formButton/FormButton.jsx";
 export { default as ProductCard } from "./productCard/ProductCard.jsx";
 export { default as Productcardbutton } from "./buttons/productCardButton/Productcardbutton.jsx";
+export { default as Toast } from "./toast/Toast.jsx";
