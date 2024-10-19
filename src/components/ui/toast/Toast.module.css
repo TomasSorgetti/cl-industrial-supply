@@ -1,7 +1,5 @@
 .toast {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
     padding: 15px 20px;
     border-radius: 5px;
     color: white;
@@ -17,4 +15,26 @@
 
 .error {
     background-color: var(--error);
+}
+
+.left-top{
+    left: 20px;
+    top: 120px;
+}
+.left-bottom{
+    left: 20px;
+    bottom: 20px;
+}
+.middle-top{
+    top: 120px;
+    left: 50%;
+    right: 50%;
+}
+.right-top{
+    top: 120px;
+    right: 20px;
+}
+.right-bottom{
+    bottom: 20px;
+    right: 20px;
 }

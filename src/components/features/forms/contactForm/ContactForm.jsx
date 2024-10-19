@@ -53,10 +53,10 @@ export default function ContactForm() {
     setTimeout(() => {
       try {
         throw new Error("Error sending data");
-        showToast("Formulario enviado con éxito.", "success");
+        showToast(t("Toast.success"), "success");
       } catch (error) {
         console.log(error.message);
-        showToast("Error al enviar el formulario.", "error");
+        showToast(t("Toast.error"), "error");
       } finally {
         setIsLoading(false);
       }
@@ -103,7 +103,7 @@ export default function ContactForm() {
           textarea
           error={errorForm.message}
         />
-        <FormButton type="submit" disabled={isLoading}>
+        <FormButton type="submit" isLoading={isLoading}>
           {t("Contact.formButton")}
         </FormButton>
       </form>

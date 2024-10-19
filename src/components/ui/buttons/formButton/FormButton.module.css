@@ -12,3 +12,7 @@
   text-align: center;
   transition: all 0.45s ease-in-out;
 }
+.loading{
+  pointer-events: none;
+  background-color: var(--loading-green);
+}

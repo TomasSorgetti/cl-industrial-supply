@@ -45,6 +45,10 @@
     "phoneInvalid": "Numero de telefono invalido",
     "messageLength": "El mensaje debe ser mayor a 30 caracteres"
   },
+  "Toast":{
+    "success": "Mensaje enviado con exito",
+    "error": "Error al enviar el formulario"
+  },
   "Error404": {
     "title": "Pagina de Error"
   },
