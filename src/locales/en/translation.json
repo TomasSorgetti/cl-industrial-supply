@@ -15,7 +15,10 @@
     "aboutDescription": "Our commitment to quality and safety is reflected in each of our products, designed to maximize efficiency and reliability in your operations. We combine innovation and technical expertise to provide solutions that exceed your expectations. Trust us to enhance your productivity and safety in every project.",
     "aboutButton": "know more",
     "leftButton":"view products",
-    "rightButton":"Contact us"
+    "rightButton":"Contact us",
+    "productsTitle": "Our Products",
+    "productsDescription": "Our products are based on the best experience and safety for guaranteeing the reliability of operations of our clients.",
+    "productsButton": "See all"
   },
   "About": {
     "title": "About us",

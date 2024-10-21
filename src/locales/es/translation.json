@@ -15,7 +15,10 @@
     "aboutDescription": "Nuestro compromiso con la calidad y la seguridad se refleja en cada uno de nuestros productos, diseñados para maximizar la eficiencia y la confiabilidad en tus operaciones. Combinamos innovación y conocimiento técnico para ofrecerte soluciones que superen tus expectativas. Confía en nosotros para elevar tu productividad y seguridad en cada proyecto.",
     "aboutButton": "Conocer más",
     "leftButton":"ver productos",
-    "rightButton":"Contactar"
+    "rightButton":"Contactar",
+    "productsTitle": "Nuestros productos",
+    "productsDescription": "Nuestros productos se basan en la mejor experiencia y la seguridad para garantizar la confiabilidad de las operaciones de nuestros clientes.",
+    "productsButton": "Ver todos"
   },
   "About": {
     "title": "Sobre nosotros",

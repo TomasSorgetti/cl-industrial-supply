@@ -1,9 +1,9 @@
 import styles from "./Home.module.css";
 import { useTranslation } from "react-i18next";
 import { CallToAction, HomeBanner } from "../../components/layout";
-import { CategoriesSection } from "../../components/features";
-import { TitleTextButton } from "../../components/ui";
+import { ImageText, TitleTextButton } from "../../components/ui";
 import homeAbout from "../../assets/images/home_about.png";
+import categories from "../../assets/images/products.png";
 export default function HomePage() {
   const { t } = useTranslation();
 
@@ -20,8 +20,14 @@ export default function HomePage() {
             buttonLabel={t("Home.aboutButton")}
           />
         </div>
-
-        <CategoriesSection />
+        <ImageText
+          title={t("Home.productsTitle")}
+          text={t("Home.productsDescription")}
+          image={categories}
+          path="/categories"
+          orientation="right"
+          buttonLabel={t("Home.productsButton")}
+        />
       </div>
       <CallToAction />
     </main>
