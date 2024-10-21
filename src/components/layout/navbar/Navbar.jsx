@@ -57,7 +57,7 @@ export default function Navbar() {
       }`}
     >
       <nav>
-        <Link to="/">
+        <Link to="/home">
           <img src={logo} alt="CL industrial supply logo" />
         </Link>
 
@@ -72,7 +72,7 @@ export default function Navbar() {
             <NavLink
               className={({ isActive }) => (isActive ? styles.activeNav : "")}
               onClick={handleClose}
-              to="/"
+              to="/home"
             >
               {t("Navbar.home")}
             </NavLink>
