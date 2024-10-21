@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Toast.module.css"; // Asegúrate de crear este archivo de estilos
+import styles from "./Toast.module.css";
 
 export default function Toast({
   message,

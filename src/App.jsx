@@ -10,6 +10,7 @@ import {
   ProductPage,
   NotFoundPage,
   CategoriesPage,
+  LanguageBanner,
 } from "./pages";
 
 function App() {
@@ -21,6 +22,15 @@ function App() {
       <Routes>
         <Route
           path="/"
+          element={
+            <PageWrapper>
+              <LanguageBanner />
+              {/* <HomePage /> */}
+            </PageWrapper>
+          }
+        />
+        <Route
+          path="/home"
           element={
             <PageWrapper>
               <HomePage />

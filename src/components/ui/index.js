@@ -1,3 +1,4 @@
+export { default as LanguageButton } from "./buttons/languageButton/LanguageButton.jsx";
 export { default as ButtonLink } from "./buttons/buttonLink/ButtonLink.jsx";
 export { default as CardButton } from "./buttons/cardButton/CardButton.jsx";
 export { default as TitleTextButton } from "./titleTextButton/TitleTextButton.jsx";

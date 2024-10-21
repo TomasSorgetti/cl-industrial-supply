@@ -1,12 +1,13 @@
 import styles from "./Navbar.module.css";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { getAllCategories } from "../../../services/categories.service";
 import { ButtonLink } from "../../ui";
 import logo from "../../../assets/images/logo.svg";
 
 export default function Navbar() {
+  const { pathname } = useLocation();
   const { t, i18n } = useTranslation();
   const normalizedLanguage = i18n.language.slice(0, 2);
   const [categoriesData, setCategoriesData] = useState([]);
@@ -44,6 +45,10 @@ export default function Navbar() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  if (pathname === "/") {
+    return null;
+  }
 
   return (
     <header
