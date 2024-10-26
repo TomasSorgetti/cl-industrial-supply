@@ -21,9 +21,19 @@
   font-size: 1.5rem;
   color: var(--white);
 }
+.container input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px var(--dark-black) inset !important;
+  box-shadow: 0 0 0 1000px var(--dark-black) inset !important;
+  -webkit-text-fill-color: var(--white) !important;
+}
 .container textarea {
   height: 200px;
   resize: none;
+}
+.container input:focus,
+.container textarea:focus {
+  outline: none;
+  border-bottom: 2px solid var(--medium-green);
 }
 
 .container.error input,
@@ -31,7 +41,7 @@
   border-bottom: 2px solid var(--error);
 }
 
-.errorText{
+.errorText {
   position: absolute;
   bottom: -2rem;
   left: 0;

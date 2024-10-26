@@ -43,8 +43,6 @@ export function validateContact(data) {
     errors.message = `${i18next.t("Contact.formMessageLabel")} ${i18next.t(
       "ValidationContact.required"
     )}`;
-  } else if (data.message.length < 30) {
-    errors.message = i18next.t("ValidationContact.messageLength");
   }
 
   return errors;
