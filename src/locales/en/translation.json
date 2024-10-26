@@ -14,8 +14,8 @@
     "aboutTitle": "About us",
     "aboutDescription": "Our commitment to quality and safety is reflected in each of our products, designed to maximize efficiency and reliability in your operations. We combine innovation and technical expertise to provide solutions that exceed your expectations. Trust us to enhance your productivity and safety in every project.",
     "aboutButton": "know more",
-    "leftButton":"view products",
-    "rightButton":"Contact us",
+    "leftButton": "view products",
+    "rightButton": "Contact us",
     "productsTitle": "Our Products",
     "productsDescription": "Our products are based on the best experience and safety for guaranteeing the reliability of operations of our clients.",
     "productsButton": "See all"
@@ -23,10 +23,10 @@
   "About": {
     "title": "About us",
     "description": "Experience and safety enhance efficiency and reliability",
-    "firstHeading":"Who are we?",
-    "firstText":"At CL Industrial Supply, we specialize in lifting solutions and hooks for load transportation. Our commitment to safety and quality ensures reliable products that optimize our clients' operations. With years of experience in the industry, we strive to deliver innovation and efficiency in all our services and products.",
-    "secondHeading":"Why trust us?",
-    "secondText":"At CL Industrial Supply, trust is our cornerstone. We are backed by a track record of excellence in lifting solutions and hooks for load transportation. Our products undergo rigorous evaluations to meet the highest standards of quality and safety. Additionally, our team of experts is always ready to provide personalized advice and technical support. With us, every operation is carried out with the assurance of reliability, efficiency, and the support of a company committed to innovation and customer satisfaction."
+    "firstHeading": "Who are we?",
+    "firstText": "At CL Industrial Supply, we specialize in lifting solutions and hooks for load transportation. Our commitment to safety and quality ensures reliable products that optimize our clients' operations. With years of experience in the industry, we strive to deliver innovation and efficiency in all our services and products.",
+    "secondHeading": "Why trust us?",
+    "secondText": "At CL Industrial Supply, trust is our cornerstone. We are backed by a track record of excellence in lifting solutions and hooks for load transportation. Our products undergo rigorous evaluations to meet the highest standards of quality and safety. Additionally, our team of experts is always ready to provide personalized advice and technical support. With us, every operation is carried out with the assurance of reliability, efficiency, and the support of a company committed to innovation and customer satisfaction."
   },
   "Contact": {
     "title": "Contact Us",
@@ -41,14 +41,14 @@
     "formMessageInput": "Write your message...",
     "formButton": "Send message"
   },
-  "ValidationContact":{
+  "ValidationContact": {
     "required": "is required",
     "invalid": "is invalid",
     "nameLength": "Name must be at least 3 characters",
     "phoneInvalid": "Invalid phone number",
     "messageLength": "Message must be at least 30 characters"
   },
-  "Toast":{
+  "Toast": {
     "success": "Message sent successfully",
     "error": "An error occurred while sending the message"
   },
@@ -56,17 +56,20 @@
     "title": "Error Page"
   },
   "CallToAction": {
-    "title":"Need help? Contact us today and discover how we can boost your business",
+    "title": "Need help? Contact us today and discover how we can boost your business",
     "button": "Contact Us"
   },
-  "ProductList":{
+  "ProductList": {
     "button": "View product"
   },
-  "Product":{
+  "Product": {
     "download": "Download"
   },
   "ProductsPage": {
     "title": "Our products",
     "description": "Discover our efficient, safe industrial lifting products"
+  },
+  "GoBack": {
+    "button": "Categories"
   }
 }
